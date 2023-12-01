@@ -1,0 +1,30 @@
+Q1) Accept one int value from user, and convert it in Integer.
+
+Q2) Accept name and mobile number from the user using command line argument and represent mobile number in int format. 
+
+Q3) Write Java program to demonstrate Boxing and Unboxing
+a) byte to Byte object
+b) int to Integer  and Integer to int 
+c) float to Float and  Float to float
+d) double to Dobule  and Double to double
+
+
+Q4) Accept a character from user and display its ascii value.
+
+Q5) Take two numbers from user, write a switch case statement to perform arithmetic operations.
+
+Q6) Accept two numbers from user give choice to user,
+ a) Supply int data
+ b) Supply float data
+ c) Supply double data
+ and then in each case , try to find min and max value. Also compare two objects numerically and display the result.
+
+Q7) accept a number from user from command line argument, and reverse it.(use wrapper class predefined methods)
+
+
+Q8) accept one value from user, and it Returns true if this Float value is a Not-a-Number (NaN) else it should return false otherwise.
+
+
+Q9) accept a number from user using command line argument ,and print month name for the given number.
+
+Q10) Write a program to Check whether a character is a vowel or consonant using switch statement
