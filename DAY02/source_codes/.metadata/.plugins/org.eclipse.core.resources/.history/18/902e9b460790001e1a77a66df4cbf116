@@ -1,0 +1,13 @@
+// Example on Wrapper classes
+
+public class Day2_5 
+{
+	public static void main(String[] args)
+	{
+		String s1 = "1234";
+		String s2 = "4.5f";
+		String s3 = "5.6";
+		
+	}
+
+}

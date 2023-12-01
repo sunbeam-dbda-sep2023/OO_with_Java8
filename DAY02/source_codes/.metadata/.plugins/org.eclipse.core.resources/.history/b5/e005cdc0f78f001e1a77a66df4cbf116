@@ -1,0 +1,18 @@
+
+public class Day2_3 {
+
+	public static void main(String[] args)
+	{
+		int num1 = 25;
+		int num2 = 15;
+		System.out.println("VALUE1 = "+num1);
+		System.out.println("VALUE2 = "+num2);
+		// print(f"VALUE1 = {num1}")
+		// cout<< " VALUE1 = "<<num1;
+		// printf("VALUE1 = %d",num1);
+		
+		System.out.println("Value of first number = "+num1);
+
+	}
+
+}

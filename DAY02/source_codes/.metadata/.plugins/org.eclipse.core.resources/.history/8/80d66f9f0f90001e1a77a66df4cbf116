@@ -1,0 +1,13 @@
+
+public class Day2_9 {
+
+	public static void main(String[] args)
+	{
+		int number = 1234;
+		//int to String
+		// P to NP ==> Boxing
+		String s1 = Integer.toString(number);
+		System.out.println("S1 = "+s1);
+	}
+
+}

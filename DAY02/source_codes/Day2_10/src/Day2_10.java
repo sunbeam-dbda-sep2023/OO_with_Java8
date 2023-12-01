@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+//Scanner class
+
+public class Day2_10 {
+
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter your name :");
+		String name = sc.nextLine();
+		
+		System.out.println("Enter roll no :");
+		int rn = sc.nextInt();
+		
+		System.out.println("Enter your percentage :");
+		double per = sc.nextDouble();
+		
+		System.out.println("Enter grades : ");
+		float grades = sc.nextFloat();
+		
+		System.out.println("Name = "+name+" Rollno = "+rn);
+		System.out.println("Percentage = "+per+" Grades = "+grades);
+		
+		
+		
+	}
+
+}

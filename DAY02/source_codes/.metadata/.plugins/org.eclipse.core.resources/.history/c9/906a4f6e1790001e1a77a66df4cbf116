@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+
+/*
+public class Day2_11 {
+
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Please enter your name : ");
+		String name = sc.nextLine();
+		System.out.println("Enter emp id :");
+		int empid = sc.nextInt();
+		System.out.println("Enter age : ");
+		int age = sc.nextInt();
+		System.out.println("Enter dept id : ");
+		int deptid = sc.nextInt();
+		System.out.println(name+empid+age+deptid);
+		System.out.println(name+"\t"+empid+"\t" + age +"\t"+deptid);
+		
+	}
+
+}
+*/
+

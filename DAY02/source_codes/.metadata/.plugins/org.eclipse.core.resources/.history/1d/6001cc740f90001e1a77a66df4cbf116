@@ -1,0 +1,11 @@
+
+public class Day2_9 {
+
+	public static void main(String[] args)
+	{
+		int number = 1234;
+		//int to String
+		// P to NP ==> Boxing
+	}
+
+}
