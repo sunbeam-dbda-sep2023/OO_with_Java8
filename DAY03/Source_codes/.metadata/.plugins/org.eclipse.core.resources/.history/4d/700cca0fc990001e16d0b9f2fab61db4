@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+
+class Employee
+{
+	
+	String name; // field
+	int id; // field 
+	int salary; //field 
+	
+	void accept() // method 
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Name : ");
+		name = sc.next();
+		System.out.println("Enter ID : ");
+		id = sc.nextInt();
+		System.out.println("Enter Salary : ");
+		salary = sc.nextInt();
+	}
+	void disp() //method 
+	{
+		System.out.println("Name = "+name+" Id = "+id+" Salary = "+salary);
+	}
+}
+
+
+public class Day3_2 {
+
+	public static void main(String[] args) 
+	{
+		Employee e1; // uninitialized // local reference variable
+		// e1.disp(); // javac error 
+		
+		
+	}
+
+}
+

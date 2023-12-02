@@ -1,0 +1,16 @@
+//this keyword
+class Date
+{
+	int dd;
+	int mm;
+	int yy;
+	
+	
+}
+public class Day3_4 
+{
+	public static void main(String[] args) 
+	{
+		
+	}
+}

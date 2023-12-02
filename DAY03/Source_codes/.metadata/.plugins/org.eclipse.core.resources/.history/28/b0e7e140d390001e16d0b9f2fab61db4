@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+//this keyword
+class Date
+{
+	int dd;
+	int mm;
+	int yy;
+	
+	void accept()
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter date :");
+		dd = sc.nextInt();
+		System.out.println("Enter month :");
+		mm = sc.nextInt();
+		System.out.println("Enter year :");
+		yy = sc.nextInt();
+		
+	}
+	
+	void disp()
+	{
+		System.out.println("Date = "+dd+"-"+mm+"-"+yy);
+	}
+}
+public class Day3_4 
+{
+	public static void main(String[] args) 
+	{
+		
+	}
+}

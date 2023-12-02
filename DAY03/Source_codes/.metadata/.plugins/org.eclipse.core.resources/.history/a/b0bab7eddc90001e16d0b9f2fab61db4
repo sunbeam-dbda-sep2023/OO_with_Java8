@@ -1,0 +1,42 @@
+// private fields
+
+class Employee
+{
+	String name;
+	int empid;
+	double salary;
+	
+	Employee() // parameterless constructor / user defined default constructor
+	{
+		this.name = "DEFAULT";
+		this.empid = 1;
+		this.salary=50000;
+		
+	}
+	Employee(String name,int empid,double salary)
+	{
+		this.name = name;
+		this.empid=empid;
+		this.salary=salary;
+		
+	}
+	void disp()
+	{
+		System.out.println("Name = "+this.name+" Empid = "+this.empid+"Salary = "+this.salary);
+
+	}
+}
+
+public class Day3_10 
+{
+
+	public static void main(String[] args) 
+	{
+		Employee e1 = new Employee("emp1",123,90000);
+		Employee e2 = new Employee("emp2",456,80000);
+		
+		
+
+	}
+
+}

@@ -1,0 +1,18 @@
+class Student
+{
+	int rn;
+	int age;
+	String name;
+	int marks;
+	double per;
+	
+	
+}
+public class Day3_12 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

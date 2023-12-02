@@ -1,0 +1,41 @@
+class Employee
+{
+	private int empid;
+	private String name;
+	
+	Employee() // parameterless constructor 
+	{
+		this.empid=1;
+		this.name = "default";
+	}
+	Employee(int empid, String name) // paramatrized constructor 
+	{
+		this.empid = empid;
+		this.name=name;
+	}
+	  
+	int getEmpId() // getter 
+	{
+		return this.empid;
+	}
+	
+	String getName() // getter 
+	{
+		return this.name;
+	}
+	
+	
+	
+	void disp() // facilitator
+	{
+		System.out.println("ID = "+this.empid+" Name = "+this.name);
+	}
+}
+public class Day3_11 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

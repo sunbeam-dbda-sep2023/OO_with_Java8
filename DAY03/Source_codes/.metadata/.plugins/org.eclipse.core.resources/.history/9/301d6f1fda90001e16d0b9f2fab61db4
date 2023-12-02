@@ -1,0 +1,42 @@
+import java.util.Scanner;
+
+
+class Employee
+{
+	String name;
+	int empid;
+	double salary;
+	int age;
+
+	Employee() // parameterless constructor / user defined default constructor
+	{
+		this.name = "default";
+		this.empid=1;
+		this.salary = 50000;
+		//this.age = 18;
+		
+	}
+	Employee(String name,int empid,double salary,int age)
+	{
+		this.name = name;
+		this.empid=empid;
+		this.salary=salary;
+		this.age=age;
+	}
+	void disp()
+	{
+		System.out.println("Name = "+this.name+" Empid = "+this.empid);
+		System.out.println("Salary = "+this.salary+" Age = "+this.age);
+	}
+}
+
+public class Day3_8 {
+
+	public static void main(String[] args) 
+	{
+		Employee e1 = new Employee(); //call to parameterless constructor  
+		e1.disp(); // disp() is called upon e1 object
+		
+	}
+
+}

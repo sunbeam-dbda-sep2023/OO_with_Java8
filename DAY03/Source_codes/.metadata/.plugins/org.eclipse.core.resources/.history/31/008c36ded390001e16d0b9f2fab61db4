@@ -1,0 +1,42 @@
+import java.util.Scanner;
+
+//this keyword
+class Date
+{
+	int dd;
+	int mm;
+	int yy;
+	
+	void accept()
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter date :");
+		this.dd = sc.nextInt();
+		System.out.println("Enter month :");
+		this.mm = sc.nextInt();
+		System.out.println("Enter year :");
+		this.yy = sc.nextInt();
+		
+	}
+	
+	void disp()
+	{
+		System.out.println("Date = "+dd+"-"+mm+"-"+yy);
+	}
+}
+public class Day3_4 
+{
+	public static void main(String[] args) 
+	{
+		Date d1 = new Date();
+		Date d2 = new Date();
+		d1.accept(); // accept() is called upon d1 
+		// this keyword
+		// store the address of current object
+		
+		d2.accept(); // accept() is called upon d2
+		d1.disp(); // disp() is called upon d1 
+		d2.disp();// disp() is called upon d2 
+		
+	}
+}

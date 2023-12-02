@@ -1,0 +1,89 @@
+import java.util.Scanner;
+
+class Employee
+{
+	
+	String name; // field
+	int id; // field 
+	int salary; //field 
+	
+	void accept() // method 
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Name : ");
+		name = sc.next();
+		System.out.println("Enter ID : ");
+		id = sc.nextInt();
+		System.out.println("Enter Salary : ");
+		salary = sc.nextInt();
+	}
+	void disp() //method 
+	{
+		System.out.println("Name = "+name+" Id = "+id+" Salary = "+salary);
+	}
+}
+
+/*
+public class Day3_1 {
+
+	public static void main(String[] args) 
+	{
+		//object / instance of the class Employee
+		Employee eobj = new Employee();
+		eobj.accept(); // accept() is called upon eobj
+		eobj.disp(); //disp() is called upon eobj
+		
+		
+	}
+
+}
+*/
+
+
+
+/*
+public class Day3_1 {
+
+	public static void main(String[] args) 
+	{
+		//object / instance of the class Employee
+		Employee eobj; 
+		eobj = new Employee();
+		eobj.accept(); // accept() is called upon eobj
+		eobj.disp(); //disp() is called upon eobj
+		
+		
+	}
+
+}
+*/
+
+public class Day3_1 {
+
+	public static void main(String[] args) 
+	{
+		//e1 and e2 are objects of Employee class
+		// only e1 and e2 are reference of type Employee
+		// e1 and e2 are local variables declared inside main()
+		// e1 and e2 are local references declared inside main()
+		//e1 and e2 are going to get the different memory allocations
+		Employee e1 = new Employee();
+		Employee e2 = new Employee();
+		e1.disp();
+		e2.disp();
+		
+		e1.accept();
+		e2.accept();
+		e1.disp();
+		e2.disp();
+		
+		Employee e3; // e3 is uninitialized reference 
+		
+		//e3.disp(); // javac error
+		// local variable may not have been initialized
+		
+		e3 = e2;
+		
+		
+	}
+}

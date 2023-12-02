@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+// Constructor 
+
+class Employee
+{
+	String name;
+	int empid;
+
+	void accept()
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter your name : ");
+		this.name = sc.next();
+		
+		System.out.println("Enter empid : ");
+		this.empid = sc.nextInt();
+	}	
+	void disp()
+	{
+		System.out.println("Name = "+this.name+" Empid = "+this.empid);
+	}
+}
+
+public class Day3_5 {
+
+	public static void main(String[] args) 
+	{
+		Employee e1 = new Employee();
+		
+
+	}
+
+}

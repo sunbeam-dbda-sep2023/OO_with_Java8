@@ -1,0 +1,35 @@
+class Employee
+{
+	private int empid;
+	private String name;
+	
+	Employee()
+	{
+		this.empid=1;
+		this.name = "default";
+	}
+	Employee(int empid, String name)
+	{
+		this.empid = empid;
+		this.name=name;
+	}
+	
+	int getEmpId()
+	{
+		return this.empid;
+	}
+	
+	
+	void disp()
+	{
+		System.out.println("ID = "+this.empid+" Name = "+this.name);
+	}
+}
+public class Day3_11 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,30 @@
+class Employee
+{
+	int empid;
+	String name;
+	
+	Employee()
+	{
+		this.empid=1;
+		this.name="default";
+	}
+	void disp()
+	{
+		System.out.println("Empid = "+this.empid+" Name  = "+this.name);
+	}
+}
+public class Day3_13 
+{
+
+	public static void main(String[] args) 
+	{
+		Employee eobj = new Employee();
+		System.out.println("EOBJ = "+eobj); 
+		// whenever we print the object
+		// it gives a  call to toString() 
+		// it displays the data
+		//
+
+	}
+
+}

@@ -1,0 +1,41 @@
+import java.util.Scanner;
+// creating references , objects, call the methods , reference copy
+
+class Employee
+{
+	
+	String name; // field
+	int id; // field 
+	int salary; //field 
+	
+	void accept() // method 
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Name : ");
+		name = sc.next();
+		System.out.println("Enter ID : ");
+		id = sc.nextInt();
+		System.out.println("Enter Salary : ");
+		salary = sc.nextInt();
+	}
+	void disp() //method 
+	{
+		System.out.println("Name = "+name+" Id = "+id+" Salary = "+salary);
+	}
+}
+
+
+public class Day3_1 {
+
+	public static void main(String[] args) 
+	{
+		//object / instance of the class Employee
+		Employee eobj = new Employee();
+		eobj.accept(); // accept() is called upon eobj
+		eobj.disp(); //disp() is called upon eobj
+		
+		
+	}
+
+}
+

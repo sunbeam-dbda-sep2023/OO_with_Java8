@@ -1,0 +1,33 @@
+class Student
+{
+	private int rn;
+	private int age;
+	String name;
+	int marks;
+	double per;
+	
+		
+	public Student()
+	{
+		
+	}
+
+
+
+	void disp()
+	{
+		System.out.println("Roll no = "+this.rn+" Age = "+this.age);
+		System.out.println("Name = "+this.name+" Marks = "+this.marks);
+		System.out.println("Percentage = "+this.per);
+	}
+}
+public class Day3_12 {
+
+	public static void main(String[] args)
+	{
+		Student s1 = new Student();
+		s1.disp();
+
+	}
+
+}
