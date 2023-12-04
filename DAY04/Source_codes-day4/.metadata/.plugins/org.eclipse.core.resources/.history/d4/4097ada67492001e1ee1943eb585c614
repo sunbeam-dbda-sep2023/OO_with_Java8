@@ -1,0 +1,24 @@
+class Account
+{
+	static int balance; // static field
+	
+	void deposit()
+	{
+		balance = balance + 5000;
+	}
+	
+	void withdraw()
+	{
+		balance = balance - 1000;
+	}
+	
+}
+public class Day4_15 {
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+}

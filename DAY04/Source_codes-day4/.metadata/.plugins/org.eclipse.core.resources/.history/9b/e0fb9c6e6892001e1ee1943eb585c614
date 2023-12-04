@@ -1,0 +1,19 @@
+package p2;
+
+import p1.Student;
+
+public class Day4_7 {
+
+	public static void main(String[] args) 
+	{
+		Student sobj1 = new Student();
+		System.out.println(sobj1);
+		
+		Student sobj2 = new Student(25,95);
+		System.out.println(sobj1);
+		
+		
+
+	}
+
+}

@@ -1,0 +1,19 @@
+
+// non static methods are called with the help of object name
+// static methods are called with the help of class name (RECOMMENDED)
+public class Day4_13
+{
+
+	public static void main(String[] args) 
+	{
+		Demo d1 = new Demo();
+		d1.m1(); // calling non static method (instance method)
+		Demo.add(); // calling static method ( class level method) //RECOMMENDED
+		Demo.sub(); // calling static method ( class level method) // RECOMMENDED
+		System.out.println();
+		d1.add();
+		d1.sub();
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+
+public class Day4_14 
+{
+	void m1()
+	{
+		System.out.println("Inside M1 method of day4_14");
+	}
+	public static void main(String[] args)
+	{
+		
+	}
+
+}

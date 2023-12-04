@@ -1,0 +1,53 @@
+// final reference
+
+class Circle
+{
+	int radius;
+	
+	Circle()
+	{
+		
+	}
+	Circle(int radius)
+	{
+		this.radius = radius;
+	}
+	
+	void disp()
+	{
+		System.out.println("Radius of a Circle = "+this.radius);
+	}
+}
+
+/*
+// c1 is non final reference
+// c1 initially points to new Circle(5)
+// and then c1 points to new Circle(6)
+public class Day4_12 {
+
+	public static void main(String[] args)
+	{
+		Circle c1 = new Circle(5);
+		c1.disp();
+		c1 = new Circle(6);
+		c1.disp();
+
+	}
+
+}
+
+*/
+
+public class Day4_12 {
+
+	public static void main(String[] args)
+	{
+		final Circle c1 = new Circle(28);
+		c1.disp();
+		c1 = new Circle(55); // javac error
+		// c1 is final reference 
+		// it can point to only one location and that is final
+		
+	}
+
+}

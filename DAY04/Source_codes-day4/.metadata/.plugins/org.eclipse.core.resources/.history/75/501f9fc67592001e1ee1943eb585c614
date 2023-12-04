@@ -1,0 +1,54 @@
+// static fields are initialized only once in the program
+// static fields are persistent
+// they maintain their last updated state
+// static fields are shared among all the objects of the class
+//  if we wish sharable data in class , we must declare the fields as static
+
+// by default static field receive a default value as per the data type
+// int ==> 0 , float==> 0.0 , reference ==> null
+
+// if we wish to assign initial value to the static field
+// we must write STATIC INITIALIZER BLOCK
+// STATIC INITIALIZER BLOCK get called only once before the class get loaded
+
+
+
+
+class Account
+{
+	static int balance; // static field
+	
+	static
+	{
+		balance = 2000;
+	}
+	void deposit()
+	{
+		balance = balance + 5000;
+	}
+	
+	void withdraw()
+	{
+		balance = balance - 1000;
+	}
+	void disp()
+	{
+		System.out.println("Balance = "+balance);
+	}
+}
+public class Day4_15 {
+
+	public static void main(String[] args) 
+	{
+		Account a1 = new Account();
+		a1.disp();
+		a1.deposit();
+		a1.disp();
+		a1.withdraw();
+		a1.disp();
+		a1.deposit();
+		a1.deposit();
+		a1.disp();
+	}
+
+}

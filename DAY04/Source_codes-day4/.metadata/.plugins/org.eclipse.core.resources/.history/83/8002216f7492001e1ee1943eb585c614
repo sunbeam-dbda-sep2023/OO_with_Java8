@@ -1,0 +1,13 @@
+class Account
+{
+	static int balance;
+	
+}
+public class Day4_15 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package p2;
+
+import p1.Student;
+
+public class Day4_7 {
+
+	public static void main(String[] args) 
+	{
+		Student sobj = new Student();
+		System.out.println(sobj);
+		
+
+	}
+
+}

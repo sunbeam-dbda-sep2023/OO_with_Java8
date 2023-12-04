@@ -1,0 +1,15 @@
+class Demo
+{
+	final int var=50; // Final Field 
+	
+}
+public class Day4_9 
+{
+
+	public static void main(String[] args) 
+	{
+		
+
+	}
+
+}

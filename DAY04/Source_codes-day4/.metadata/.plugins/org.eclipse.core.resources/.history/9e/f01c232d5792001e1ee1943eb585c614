@@ -1,0 +1,57 @@
+// equals()
+
+class Employee
+{
+	int empid;
+	String name;
+	int salary;
+	
+	Employee()
+	{
+
+	}
+	Employee(int empid,String name,int salary)
+	{
+		this.empid=empid;
+		this.name=name;
+		this.salary=salary;
+	}
+	
+	void disp()
+	{
+		System.out.println("Empid = "+this.empid+" Name = "+this.name+" Salary = "+this.salary);
+		
+	}
+	
+	public String toString() 
+	{
+		return "Employee [empid=" + empid + ", name=" + name + "]";
+	}
+	
+	//public String toString()  // overridden method 
+	//{
+		//return this.empid +" "+this.name;
+	//}
+	
+	
+	
+	
+}
+
+public class Day4_4 {
+
+	public static void main(String[] args) 
+	{
+		Employee e1 = new Employee(123,"Akshita",90000);
+		//e1.disp();
+		System.out.println(e1); // implicit call
+		System.out.println();
+		System.out.println(e1.toString()); // explicit call
+		System.out.println();
+		System.out.println(e1 instanceof Employee);
+		//objectname instanceof classname
+		
+					
+	}
+
+}

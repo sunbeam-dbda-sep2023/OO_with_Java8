@@ -1,0 +1,12 @@
+package p1;
+
+public class Employee 
+{
+	int empid;
+	String name;
+	int age;
+	int salary;
+	String dept;
+	
+	
+}

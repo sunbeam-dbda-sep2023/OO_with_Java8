@@ -1,0 +1,15 @@
+class Demo
+{
+	final int var;
+	
+}
+public class Day4_9 
+{
+
+	public static void main(String[] args) 
+	{
+		
+
+	}
+
+}

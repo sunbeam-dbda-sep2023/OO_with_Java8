@@ -1,0 +1,15 @@
+
+public class Day4_13
+{
+
+	public static void main(String[] args) 
+	{
+		Demo d1 = new Demo();
+		d1.m1(); // calling non static method (instance method)
+		Demo.add(); // calling static method ( class level method)
+		Demo.sub(); // calling static method ( class level method)
+		
+		
+	}
+
+}

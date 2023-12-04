@@ -1,0 +1,31 @@
+// final reference
+
+class Circle
+{
+	int radius;
+	
+	Circle()
+	{
+		
+	}
+	Circle(int radius)
+	{
+		this.radius = radius;
+	}
+	
+	void disp()
+	{
+		System.out.println("Radius of a Circle = "+this.radius);
+	}
+}
+
+public class Day4_12 {
+
+	public static void main(String[] args)
+	{
+		Circle c1 = new Circle(5);
+		c1.disp();
+
+	}
+
+}

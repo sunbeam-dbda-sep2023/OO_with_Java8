@@ -1,0 +1,26 @@
+package p2;
+
+import p1.Student;
+import p1.Faculty;
+
+public class Day4_7 {
+
+	public static void main(String[] args) 
+	{
+		Student sobj1 = new Student();
+		System.out.println(sobj1);
+		
+		Student sobj2 = new Student(25,95);
+		System.out.println(sobj2);
+		
+		Faculty f1 = new Faculty();
+		System.out.println(f1);
+		
+		Faculty f1 = new Faculty("Akshita",123);
+		System.out.println(f1);
+		
+		
+
+	}
+
+}

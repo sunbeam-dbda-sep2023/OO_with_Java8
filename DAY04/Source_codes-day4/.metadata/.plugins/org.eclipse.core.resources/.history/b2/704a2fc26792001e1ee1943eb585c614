@@ -1,0 +1,8 @@
+package p1;
+
+public class Student 
+{
+	int rn;
+	int marks;
+	
+}

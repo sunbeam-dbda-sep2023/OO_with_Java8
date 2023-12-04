@@ -1,0 +1,20 @@
+// final reference
+
+class Circle
+{
+	int radius;
+	
+	Circle(int radius)
+	{
+		this.radius = radius;
+	}
+}
+
+public class Day4_12 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

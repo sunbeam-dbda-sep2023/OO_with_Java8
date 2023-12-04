@@ -1,0 +1,24 @@
+// methods are having same scope as main scope
+
+public class Day4_14 
+{
+	void m1() // non static (can be accessed with the help of object name)
+	{
+		System.out.println("Inside M1 method of day4_14");
+	}
+	
+	static void add() //static method 
+	{
+		System.out.println("Addition = "+(25+10));
+	}
+	
+	static void sub()  //static method 
+	{
+		System.out.println("Addition = "+(85-60));
+	}
+	public static void main(String[] args)
+	{
+		
+	}
+
+}

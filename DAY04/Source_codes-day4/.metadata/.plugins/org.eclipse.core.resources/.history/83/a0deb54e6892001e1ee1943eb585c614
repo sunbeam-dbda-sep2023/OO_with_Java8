@@ -1,0 +1,23 @@
+package p1;
+
+public class Student 
+{
+	int rn;
+	int marks;
+
+	public Student()
+	{
+		
+	}
+	Student(int rn,int marks)
+	{
+		this.rn=rn;
+		this.marks=marks;
+	}
+	
+	public String toString()
+	{
+		return this.rn+" "+this.marks;
+	}
+	
+}

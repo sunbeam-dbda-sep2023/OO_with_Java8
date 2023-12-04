@@ -1,0 +1,33 @@
+
+//final keyword 
+// 1. final variables
+
+/*
+public class Day4_8 {
+
+	public static void main(String[] args) 
+	{
+		final float PI = 3.14f; // constant variable 
+		System.out.println("PI  = "+PI);
+		// PI++; //javac error 
+		// we can not modify final variables
+		
+	}
+
+}
+*/
+
+
+public class Day4_8 {
+
+	public static void main(String[] args) 
+	{
+		final float PI; // constant variable declaration
+		System.out.println("PI  = "+PI); 
+			
+		// javac error ==> unintialized 
+		
+		
+	}
+
+}
