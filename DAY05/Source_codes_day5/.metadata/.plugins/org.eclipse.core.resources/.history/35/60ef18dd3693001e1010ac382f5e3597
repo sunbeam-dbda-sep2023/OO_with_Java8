@@ -1,0 +1,12 @@
+
+public class Day5_14 {
+
+	public static void main(String[] args) 
+	{
+		Integer i[]=new Integer[5];
+		int arr[]=new int[5];
+		
+
+	}
+
+}

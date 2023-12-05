@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class Day5_3
+{
+	static int num1;
+	static int num2;
+	String name;
+	
+	
+	static void acceptNumericData()
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter first numeric value : ");
+		num1 = sc.nextInt();
+		
+		System.out.println("Enter second numeric value : ");
+		num2 = sc.nextInt();
+		
+	}
+	static void acceptStrData()
+	{
+		
+	}
+	static void dispData()
+	{
+		
+	}
+	public static void main(String[] args) 
+	{
+		acceptNumericData();
+		acceptStrData();
+		dispData();
+	}
+
+}

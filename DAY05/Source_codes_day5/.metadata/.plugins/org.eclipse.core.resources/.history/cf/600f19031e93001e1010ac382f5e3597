@@ -1,0 +1,28 @@
+
+public class Day5_3
+{
+	int num1;
+	int num2;
+	String name;
+	
+	
+	void acceptNumericData()
+	{
+		
+	}
+	void acceptStrData()
+	{
+		
+	}
+	void dispData()
+	{
+		
+	}
+	public static void main(String[] args) 
+	{
+		acceptNumericData();
+		acceptStrData();
+		dispData();
+	}
+
+}

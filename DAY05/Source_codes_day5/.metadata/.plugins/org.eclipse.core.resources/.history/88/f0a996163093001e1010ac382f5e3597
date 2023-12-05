@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+// Array and Functions 
+
+public class Day5_9 
+{
+
+	static void accept_data(int arr[])
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the array elements : ");
+		for(int i=0;i<arr.length;i++)
+			arr[i]=sc.nextInt();
+	}
+	
+	static void disp_data(int a[])
+	{
+		System.out.println("Array Elements =  ");
+		for(int i=0;i<a.length;i++)
+			System.out.print(a[i]+"\t");
+		System.out.println();
+	}
+	
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		int a1[] = null; // valid
+		int b1[] = null; // valid 
+		
+		
+		accept_data(a1); // NPE
+		accept_data(b1); // NPE
+		
+		disp_data(a1); // NPE
+		disp_data(b1); // NPE
+		
+	}
+
+}

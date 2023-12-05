@@ -1,0 +1,30 @@
+class Employee
+{
+	int empid;
+	int salary;
+	
+	Employee()
+	{
+	}
+	Employee(int empid,int salary)
+	{
+		this.empid=empid;
+		this.salary=salary;
+	}
+	
+	void disp()
+	{
+		System.out.println("Empid  = "+this.empid+" Salary = "+this.salary); 
+	}
+}
+public class Day5_16 
+{
+
+	public static void main(String[] args) 
+	{
+		Employee e = new Employee();
+		e.disp();
+
+	}
+
+}

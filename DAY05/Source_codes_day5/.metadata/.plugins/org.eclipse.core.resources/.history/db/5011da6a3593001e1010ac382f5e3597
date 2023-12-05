@@ -1,0 +1,10 @@
+
+public class Day5_13 {
+
+	public static void main(String[] args)
+	{
+		Integer i1[] = new Integer[5];
+		
+	}
+
+}

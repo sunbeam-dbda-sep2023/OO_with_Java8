@@ -1,0 +1,17 @@
+
+public class Day5_5 {
+
+	public static void main(String[] args) 
+	{
+		int a1[] = null; // valid 
+		int a2[] = new int[5];  // valid
+		int []a3 = new int[4]; // valid 
+		//int a4[] = new int[-6]; // invalid  //NegativeArraySizeException
+		int a5[]= new int[]{1,2,3};
+		
+		
+		
+		
+	}
+
+}

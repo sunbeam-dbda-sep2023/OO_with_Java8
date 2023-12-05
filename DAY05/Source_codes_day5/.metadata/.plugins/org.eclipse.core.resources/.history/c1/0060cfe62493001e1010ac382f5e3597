@@ -1,0 +1,9 @@
+
+public class Day5_5 {
+
+	public static void main(String[] args) 
+	{
+		int a1[] = null;
+	}
+
+}

@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class Day5_2 
+{
+	int num1;
+	int num2;
+	static void accept()
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter First number :");
+		num1=sc.nextInt();
+		
+		System.out.println("Enter Second number :");
+		num2=sc.nextInt();
+				
+	}
+	static void disp()
+	{
+		System.out.println("Num1 = "+num1+" Num2 = "+num2);
+	}
+	public static void main(String[] args) 
+	{
+		accept();
+		// Day5_2.accept(); // VALID 
+		disp();
+		// Day5_2.disp(); // VALID 
+
+	}
+
+}

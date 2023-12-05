@@ -1,0 +1,30 @@
+// getClass() and toString()
+
+/*
+public class Day5_14 {
+
+	public static void main(String[] args) 
+	{
+		Integer i[]=new Integer[5];
+		int arr[]=new int[5];
+		System.out.println("I = "+i+ " toString = "+i.toString());
+		System.out.println("Get class = "+i.getClass());
+		System.out.println();
+		System.out.println("ARR = "+arr+ " toString = "+arr.toString());
+		System.out.println("Get class = "+arr.getClass());
+
+	}
+
+}
+*/
+
+
+
+public class Day5_14 {
+
+	public static void main(String[] args) 
+	{
+		Integer i[]=new Integer[5];
+		int arr[]=new int[5];
+	}
+}

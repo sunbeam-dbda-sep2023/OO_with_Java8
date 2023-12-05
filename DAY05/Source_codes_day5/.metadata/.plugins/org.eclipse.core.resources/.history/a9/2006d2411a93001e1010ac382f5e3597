@@ -1,0 +1,15 @@
+class Test
+{
+	int num1;
+	int num2;
+	static int num3;
+	
+}
+public class Day5_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

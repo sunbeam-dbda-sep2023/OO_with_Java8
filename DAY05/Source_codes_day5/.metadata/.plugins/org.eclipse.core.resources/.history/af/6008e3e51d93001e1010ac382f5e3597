@@ -1,0 +1,26 @@
+
+public class Day5_3
+{
+	int num1;
+	int num2;
+	String name;
+	Scanner sc;
+	
+	void acceptNumericData()
+	{
+		
+	}
+	void acceptStrData()
+	{
+		
+	}
+	void dispData()
+	{
+		
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

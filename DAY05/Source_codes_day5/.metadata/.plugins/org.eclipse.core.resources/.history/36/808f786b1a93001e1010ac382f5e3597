@@ -1,0 +1,18 @@
+class Test
+{
+	private int num1; // non static field
+	private int num2; // non static field
+	private static int num3; // static field
+	
+	
+	
+	
+}
+public class Day5_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
