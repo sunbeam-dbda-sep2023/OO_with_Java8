@@ -1,0 +1,11 @@
+
+public class Day6_8 {
+
+	public static void main(String[] args)
+	{
+		StringBuffer sb1 = new StringBuffer("Sunbeam");
+		System.out.println("Sb1 = "+sb1);
+	 
+	}
+
+}

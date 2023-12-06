@@ -1,0 +1,22 @@
+// 2d arrays
+
+/*
+public class Day6_2 {
+
+	public static void main(String[] args) 
+	{
+		int a[][]=new int[3][2]; // valid declaration
+		
+		int b[][];//valid declaration
+		b = new int[4][4];
+		
+		int c[][]=new int[][] {{1,2,3,4},{5,6,7,8},{9,8,7}}; //valid declaration
+		
+		//int d[4][2]; // not allowed 
+		
+		
+	}
+
+}
+*/
+

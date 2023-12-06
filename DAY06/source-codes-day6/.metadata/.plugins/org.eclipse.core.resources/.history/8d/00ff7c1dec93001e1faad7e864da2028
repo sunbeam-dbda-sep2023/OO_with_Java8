@@ -1,0 +1,20 @@
+
+public class Day6_4 
+{
+
+	public static int sum(int a,int b)
+	{
+		return a+b;
+	}
+	public static void main(String[] args) 
+	{
+		int result = sum(10,20);
+		System.out.println("Result = "+result);
+		
+		result = sum(50,40,90);
+		System.out.println("Result = "+result);
+		
+
+	}
+
+}

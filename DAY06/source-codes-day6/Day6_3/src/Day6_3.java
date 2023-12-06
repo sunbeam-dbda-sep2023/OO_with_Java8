@@ -1,0 +1,23 @@
+
+public class Day6_3 {
+
+	public static void main(String[] args)
+	{
+		int a[][]=new int[4][4];
+		double b[][]=new double[4][4];
+		float c[][]=new float[4][4];
+		char d[][]=new char[4][4];
+		byte e[][]=new byte[4][4];
+		boolean f[][] = new boolean[4][4];
+		Integer iarr[][]=new Integer[3][3];
+		System.out.println("A = "+a.toString()+ "A = "+a);
+		System.out.println("B = "+b.toString()+ "B = "+b);
+		System.out.println("C = "+c.toString()+ "C = "+c);
+		System.out.println("D = "+d.toString()+ "D = "+d);
+		System.out.println("E = "+e.toString()+ "E = "+e);
+		System.out.println("F = "+f.toString()+ "F = "+f);
+		System.out.println("ARR = "+iarr.toString()+ "ARR = "+iarr);
+		
+	}
+
+}

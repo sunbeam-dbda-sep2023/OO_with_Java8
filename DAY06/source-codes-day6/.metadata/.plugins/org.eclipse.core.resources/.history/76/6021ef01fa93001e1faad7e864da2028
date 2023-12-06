@@ -1,0 +1,19 @@
+
+public class Day6_6 {
+
+	public static void main(String[] args)
+	{
+		String s1 = "sunbeam";
+		String s2 = "Sunbeam";
+		String s3 = "sunbeam";
+		String s4 = s3;
+		String s5 ="java";
+		
+		System.out.println("s1 == s2"+(s1==s2));
+		
+		
+		
+		
+	}
+
+}

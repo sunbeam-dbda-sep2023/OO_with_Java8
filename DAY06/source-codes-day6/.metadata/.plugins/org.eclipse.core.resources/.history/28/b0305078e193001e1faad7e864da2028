@@ -1,0 +1,40 @@
+class Date
+{
+	int dd;
+	int mm;
+	int yy;
+	
+	public Date() 
+	{
+		
+	}
+
+	public Date(int dd, int mm, int yy) 
+	{
+		
+		this.dd = dd;
+		this.mm = mm;
+		this.yy = yy;
+	}
+
+	@Override
+	public String toString() {
+		return "Date [dd=" + this.dd + ", mm=" + this.mm + ", yy=" + this.yy + "]";
+	}
+	
+	
+	
+	
+}
+class Student
+{
+	
+}
+public class Day6_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

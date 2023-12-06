@@ -1,0 +1,62 @@
+
+/*
+public class Day6_4 
+{
+
+	public static int sum(int a,int b)
+	{
+		return a+b;
+	}
+	
+	public static int sum(int a,int b,int c)
+	{
+		return a+b+c;
+	}
+	public static void main(String[] args) 
+	{
+		int result = sum(10,20);
+		System.out.println("Result = "+result);
+		
+		result = sum(50,40,90);
+		System.out.println("Result = "+result);
+		
+
+	}
+
+}
+
+*/
+
+// variable argument concept
+public class Day6_4 
+{
+
+	public static int sum(int... a) // a[]= {15,20} a[]= {150,140,90}
+	{
+		int result = 0;
+		for(int element : a)
+			result = element + result;
+		return result;
+	}
+	
+	// String args[], String []args, String... args 
+	public static void main(String... args) 
+	{
+		int result = sum(15,20);
+		System.out.println("Result = "+result);
+		
+		result = sum(150,140,90);
+		System.out.println("Result = "+result);
+		
+		result = sum();
+		System.out.println("Result = "+result);
+		
+		result = sum(6,7,8,9);
+		System.out.println("Result = "+result);
+		
+		
+		
+
+	}
+
+}

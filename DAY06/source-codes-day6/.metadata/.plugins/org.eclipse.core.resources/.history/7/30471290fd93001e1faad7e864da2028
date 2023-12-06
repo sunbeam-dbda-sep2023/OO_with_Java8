@@ -1,0 +1,11 @@
+
+public class Day6_7 {
+
+	public static void main(String[] args) 
+	{
+		String str = "Sunbeam";
+		System.out.println("Str = "+str);
+
+	}
+
+}

@@ -1,0 +1,67 @@
+import java.util.Arrays;
+
+class Date
+{
+	int dd;
+	int mm;
+	int yy;
+	
+	public Date() 
+	{
+		
+	}
+
+	public Date(int dd, int mm, int yy) 
+	{
+		
+		this.dd = dd;
+		this.mm = mm;
+		this.yy = yy;
+	}
+
+	@Override
+	public String toString() {
+		return "Date [dd=" + this.dd + ", mm=" + this.mm + ", yy=" + this.yy + "]";
+	}
+		
+} //end of Date class
+
+class Student
+{
+	int rn;
+	int marks;
+	Date d1; // ASSOCIATION
+	
+	Student()
+	{
+		
+	}
+	Student(int rn,int marks,Date d1)
+	{
+		this.rn=rn;
+		this.marks=marks;
+		this.d1 =d1;
+	}
+	@Override
+	public String toString() {
+		return "Student [rn=" + this.rn + ", marks=" + this.marks + ", d1=" + this.d1 + "]";
+	}
+	
+
+}
+public class Day6_1 {
+
+	public static void main(String[] args) 
+	{
+		Student s[]=new Student[3];
+		System.out.println(Arrays.toString(s));
+		//System.out.println(s[0]); // null
+		//System.out.println(s[0].toString()); // NPE
+		
+		s[0]= new Student();
+		
+		
+
+	}
+
+}

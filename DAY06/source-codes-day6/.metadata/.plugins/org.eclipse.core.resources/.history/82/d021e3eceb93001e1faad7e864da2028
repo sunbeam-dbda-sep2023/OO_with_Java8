@@ -1,0 +1,12 @@
+
+public class Day6_4 
+{
+
+	public static void main(String[] args) 
+	{
+		sum(10,20);
+		
+
+	}
+
+}

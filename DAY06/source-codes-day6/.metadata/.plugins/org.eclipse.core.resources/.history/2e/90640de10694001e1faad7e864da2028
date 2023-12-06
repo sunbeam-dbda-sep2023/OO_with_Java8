@@ -1,0 +1,24 @@
+import java.util.StringTokenizer;
+
+
+/*
+public class Day6_10 {
+
+	public static void main(String[] args) 
+	{
+		String str = "core java topic is string";
+		StringTokenizer stk = new StringTokenizer(str);
+		System.out.println("Total tokens = "+stk.countTokens());
+		
+	}
+
+}
+*/
+
+
+public class Day6_10 {
+
+	public static void main(String[] args) 
+	{
+		String str = "core java topic is string";
+		StringTokenizer stk = new StringTokenizer(str);

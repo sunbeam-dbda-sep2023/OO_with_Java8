@@ -1,0 +1,21 @@
+
+public class Day6_7 {
+
+	public static void main(String[] args) 
+	{
+		String s1 = "Sunbeam";
+		System.out.println("S1 = "+s1);
+		System.out.println("Character at location 4 = "+s1.charAt(4));
+		//System.out.println("Character at location 11 = "+s1.charAt(11)); // Exception
+		String s2 = "java";
+		String s3 = "Sunbeam";
+		System.out.println("s1 compare to s2 "+s1.compareTo(s2));
+		// -23
+		// first character s1 ==> S ==>  83
+		// first character s2 ==> j  ==> 106
+		// 83 - 106 = -23 
+		System.out.println("s1 compare to s2 "+s1.compareTo(s3));
+
+	}
+
+}

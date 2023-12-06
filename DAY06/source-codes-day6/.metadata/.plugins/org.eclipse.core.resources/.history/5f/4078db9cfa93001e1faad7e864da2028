@@ -1,0 +1,27 @@
+
+public class Day6_6 {
+
+	public static void main(String[] args)
+	{
+		String s1 = "sunbeam";
+		String s2 = "Sunbeam";
+		String s3 = "sunbeam";
+		String s4 = s3;
+		String s5 ="java";
+		
+		System.out.println("S1 = "+s1+ " S1 hashcode = "+s1.hashCode());
+		System.out.println("S2 = "+s2+ " S2 hashcode = "+s2.hashCode());
+		System.out.println("S3 = "+s3+ " S3 hashcode = "+s3.hashCode());
+		System.out.println("s1 == s2 "+(s1==s2));
+		System.out.println("s1 == s3 "+(s1==s3));
+		System.out.println("s1 == s4 "+(s1==s4));
+		System.out.println("s1 == s5 "+(s1==s5));
+		s1 = "sunbea"
+		
+	
+		
+		
+		
+	}
+
+}

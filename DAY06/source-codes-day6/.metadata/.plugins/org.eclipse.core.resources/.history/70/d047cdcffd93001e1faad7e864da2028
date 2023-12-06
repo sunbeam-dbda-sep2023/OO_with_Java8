@@ -1,0 +1,15 @@
+
+public class Day6_7 {
+
+	public static void main(String[] args) 
+	{
+		String str = "Sunbeam";
+		System.out.println("Str = "+str);
+		System.out.println("Character at location 4 = "+str.charAt(4));
+		//System.out.println("Character at location 11 = "+str.charAt(11)); // Exception
+		
+				
+
+	}
+
+}
