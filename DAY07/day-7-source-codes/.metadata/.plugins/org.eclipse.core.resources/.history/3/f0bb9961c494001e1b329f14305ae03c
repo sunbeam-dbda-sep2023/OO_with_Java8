@@ -1,0 +1,39 @@
+class Person
+{
+	String name;
+	int age;
+	
+	public Person() 
+	{
+		super(); // Optional 
+	}
+
+	public Person(String name, int age) 
+	{
+		this.name = name;
+		this.age = age;
+	}
+	
+	void print_details()
+	{
+		System.out.println("Name = "+this.name+" Age = "+this.age);
+	}
+	
+} //end of Person class
+
+
+class Employee extends Person
+{
+	
+} //end of Employee class
+
+
+
+public class Day7_8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

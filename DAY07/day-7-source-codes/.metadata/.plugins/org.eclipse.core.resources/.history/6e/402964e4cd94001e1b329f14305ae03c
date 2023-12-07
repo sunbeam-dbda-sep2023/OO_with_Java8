@@ -1,0 +1,21 @@
+package p1;
+
+public class Rectangle 
+{
+	int l,b;
+	Rectangle()
+	{
+		
+	}
+	Rectangle(int l,int b)
+	{
+		this.l=l;
+		this.b=b;
+	}
+	@Override
+	public String toString() {
+		return "Rectangle [l=" + l + ", b=" + b + "]"+super.toString();
+	}
+	
+	
+}

@@ -1,0 +1,20 @@
+package p1;
+
+public class Day7_9 {
+
+	public static void main(String[] args)
+	{
+		Circle cobj = new Circle(20,10,5);
+		cobj.area(); // area() is called upon cobj
+		
+		// Run Time Polymorphisim 
+		//area() will be called from Circle class 
+		// DYNAMIC METHOD DISPATCH
+		
+		
+		Rectangle robj = new Rectangle(9,8,3,4);
+		robj.area(); // area() is called upon robj
+		//area() will be called from Rectangle class 
+	}
+
+}

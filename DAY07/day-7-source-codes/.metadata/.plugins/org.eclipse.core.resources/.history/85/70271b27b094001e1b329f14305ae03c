@@ -1,0 +1,17 @@
+//values() method example 
+enum Color
+{
+	RED,GREEN,BLUE;
+}
+
+public class Day7_2 {
+
+	public static void main(String[] args) 
+	{
+		Color carr[] = Color.values();
+		for(Color clr : carr)
+			System.out.println(clr + " Name = "+clr.name()+" Ordinal = "+clr.ordinal());
+		
+	}
+
+}

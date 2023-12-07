@@ -1,0 +1,14 @@
+enum Day
+{
+	SUN(10,"SUNDAY"),MON,TUE,WED;
+}
+
+
+public class Day7_4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

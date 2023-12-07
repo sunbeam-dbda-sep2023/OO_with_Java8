@@ -1,0 +1,27 @@
+package p1;
+
+public abstract class BoundedShape 
+{
+	int x;
+	int y;
+	
+	BoundedShape()
+	{
+		
+	}
+	BoundedShape(int x,int y)
+	{
+		this.x=x;
+		this.y=y;
+	}
+	
+	abstract void area();
+
+	@Override
+	public String toString() {
+		return "BoundedShape [x=" + x + ", y=" + y + "]";
+	}
+	
+	
+	
+}

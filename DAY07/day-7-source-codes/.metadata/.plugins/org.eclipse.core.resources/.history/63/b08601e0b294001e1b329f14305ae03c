@@ -1,0 +1,23 @@
+// User defined enum constants 
+
+enum Day
+{
+	SUN(10,"SUNDAY"),MON(20,"MONDAY"),TUE(30,"TUESDAY"),WED(40,"WEDNESDAY");
+	int dayNumber;
+	String dayName;
+	Day(int dayNumber, String dayName) 
+	{
+		this.dayName=dayName;
+		this.dayNumber=dayNumber;
+	}
+}
+
+
+public class Day7_4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

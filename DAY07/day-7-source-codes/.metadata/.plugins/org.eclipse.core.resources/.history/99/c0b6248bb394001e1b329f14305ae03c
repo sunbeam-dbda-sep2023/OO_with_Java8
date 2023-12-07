@@ -1,0 +1,15 @@
+package p1;
+
+public class Day7_5 {
+
+	public static void main(String[] args) {
+		Day d = Day.SUN;
+		System.out.println("D = "+d);
+		System.out.println("Name = "+d.name());
+		System.out.println("Ordinal = "+d.ordinal());
+		System.out.println("Day number = "+d.getDayNumber());
+		System.out.println("Day Name = "+d.getDayName());
+
+	}
+
+}
