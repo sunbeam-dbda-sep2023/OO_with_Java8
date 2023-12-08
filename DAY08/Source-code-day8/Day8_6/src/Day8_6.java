@@ -1,0 +1,42 @@
+import java.util.InputMismatchException;
+import java.util.Scanner;
+//if we have multiple catch statements
+// then catch(Exception e) this must be written as the last catch statements 
+// or else we will get javac type of error (code unreachable)
+
+
+public class Day8_6 {
+
+	public static void main(String[] args)
+	{
+		try
+		{
+		int n1;
+		int n2;
+		int result; 
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter First number : ");
+		n1 = sc.nextInt(); // new InputMismatchException() 
+		System.out.println("Enter Second number : ");
+		n2 = sc.nextInt(); //throw new InputMismatchException()
+		
+			result = n1/n2; // throw new ArithmeticException()
+			System.out.println("Result = "+result);
+		}
+		catch(ArithmeticException e)
+		{
+			System.out.println("Please enter second number as non zero value");
+		}
+		
+		catch(InputMismatchException e)
+		{
+			System.out.println("Please enter correct input in number format");
+		}
+
+		catch(Exception e)
+		{
+			System.out.println("generic catch block");
+		}
+}
+
+}
