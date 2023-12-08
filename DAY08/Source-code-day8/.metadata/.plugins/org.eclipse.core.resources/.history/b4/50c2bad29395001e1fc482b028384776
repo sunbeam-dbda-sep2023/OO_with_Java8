@@ -1,0 +1,121 @@
+
+class Machine
+{
+	public void start()
+	{
+		System.out.println("Machine has started!!");
+	}
+}
+
+class Laptop extends Machine
+{
+	public void start() // overridden method
+	{
+		super.start();
+		System.out.println("Laptop has started!!");
+	}
+	
+	public void stop()
+	{
+		System.out.println("Laptop is stopped!!");
+	}
+}
+
+
+class TV extends Machine
+{
+	public void start() // overridden method
+	{
+		super.start();
+		System.out.println("TV has started!!");
+	}
+	
+	public void stop()
+	{
+		System.out.println("TV is stopped!!");
+	}
+}
+
+
+/*
+
+public class Day8_2 {
+
+	public static void main(String[] args) 
+	{
+		Machine mobj = new Machine(); 
+		//mobj.start();
+		// mobj.stop(); // javac error  // non allowed because stop() does not belong to Machine
+		
+		Laptop lobj =new Laptop();
+		//lobj.start();  
+		//lobj.stop();  // calls stop() from Laptop class
+		
+		TV tobj = new TV(); 
+		//tobj.start();  // calls start() from TV class
+		//tobj.stop(); // calls stop() from TV class
+		
+		
+		// UPCASTING : assigning child class object to parent class reference
+		Machine m2 = lobj; // UPCASTING // Machine is represented as Laptop 
+		   // it is also similar to , m2 = new Laptop()
+		
+		m2.start(); // calls start() from Laptop class
+		//m2.stop(); // javac error 
+		 
+		 m2 = tobj; // UPCASTING // Machine is represented as TV 
+		 m2.start(); //calls start() from TV class
+		 // m2.stop(); // javac error 
+		
+	}
+
+}
+*/
+
+/*
+
+public class Day8_2 {
+
+	public static void main(String[] args) 
+	{
+		Machine m1 = new Laptop(); // UPCASTING 
+		//m1.start();
+		
+		
+		
+		Laptop l1 = (Laptop) m1; // DOWNCASTING
+		l1.start();
+		l1.stop();
+		
+		TV t1 = (TV) m1; // DOWNCASTING // ClassCastException
+		
+		
+	}
+}
+
+
+	*/
+
+
+public class Day8_2 {
+
+	public static void main(String[] args) 
+	{
+		Machine m1 = new Laptop(); // UPCASTING 
+		//m1.start();
+		
+		
+		Laptop l1 = (Laptop) m1; // DOWNCASTING
+		l1.start();
+		l1.stop();
+		
+		m1 = new TV();
+		
+		TV t1 = (TV)m1; // DOWNCASTING
+		
+		
+	}
+}
+
+
+

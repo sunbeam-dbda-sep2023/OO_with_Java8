@@ -1,0 +1,9 @@
+package p1;
+
+public class NetworkPrinter implements Printer
+{
+	public void m1()
+	{
+		System.out.println("inside m1 method of network printer ");
+	}
+}

@@ -1,0 +1,17 @@
+package p1;
+
+public class Day8_1 {
+
+	public static void main(String[] args)
+	{
+		NetworkPrinter np = new NetworkPrinter();
+		np.print("10pages");
+		
+		ConsolePrinter cp = new ConsolePrinter();
+		cp.print("15pages");
+		
+		FilePrinter fp = new FilePrinter();
+		fp.print("20Pages");
+	}
+
+}

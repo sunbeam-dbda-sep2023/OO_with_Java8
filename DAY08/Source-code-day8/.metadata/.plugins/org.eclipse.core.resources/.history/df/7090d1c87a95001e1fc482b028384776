@@ -1,0 +1,17 @@
+package p1;
+
+//can implemented class can access the fileds of interface directly?? YES
+
+
+public class ConsolePrinter implements Printer
+{
+
+	@Override
+	public void print(String msg) 
+	{
+		System.out.println("Inside Console Printer Print method = "+msg);
+		
+	}
+	
+
+}

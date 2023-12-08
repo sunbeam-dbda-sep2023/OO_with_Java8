@@ -1,0 +1,21 @@
+package p1;
+
+// NetworkPrinter is implemented class of Printer interface
+ 
+// can a implemented class have its own methods?? YES 
+// in this example m1() is NetworkPrinter class method
+
+public class NetworkPrinter implements Printer
+{
+	public void m1()
+	{
+		System.out.println("inside m1 method of network printer ");
+	}
+
+	@Override
+	public void print(String msg) 
+	{
+		System.out.println("Network Printer = "+msg);
+		
+	}
+}

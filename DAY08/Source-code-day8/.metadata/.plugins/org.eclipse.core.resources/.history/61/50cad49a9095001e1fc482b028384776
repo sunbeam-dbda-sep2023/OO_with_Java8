@@ -1,0 +1,57 @@
+
+class Machine
+{
+	public void start()
+	{
+		System.out.println("Machine has started!!");
+	}
+}
+
+class Laptop extends Machine
+{
+	public void start() // overridden method
+	{
+		System.out.println("Laptop has started!!");
+	}
+	
+	public void stop()
+	{
+		System.out.println("Laptop is stopped!!");
+	}
+}
+
+
+class TV extends Machine
+{
+	public void start() // overridden method
+	{
+		System.out.println("TV has started!!");
+	}
+	
+	public void stop()
+	{
+		System.out.println("TV is stopped!!");
+	}
+}
+
+
+public class Day8_2 {
+
+	public static void main(String[] args) 
+	{
+		Machine mobj = new Machine(); 
+		//mobj.start();
+		// mobj.stop(); // javac error  // non allowed because stop() does not belong to Machine
+		
+		Laptop lobj =new Laptop();
+		lobj.start(); // calls start() from Laptop class
+		lobj.stop();  // calls stop() from Laptop class
+		
+		TV tobj = new TV(); 
+		tobj.start();  // calls start() from TV class
+		tobj.stop(); // calls stop() from TV class
+		
+		
+	}
+
+}
