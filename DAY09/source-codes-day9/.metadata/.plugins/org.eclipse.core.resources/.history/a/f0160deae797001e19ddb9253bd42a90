@@ -1,0 +1,41 @@
+// generic example 
+class Test<T,U> // class Test is taking two generic type parameters
+{
+	T a;
+	U b; 
+	
+	Test()
+	{}
+	Test(T a,T b) // method of the class is taking one parameter of type T
+	{
+		this.a = a;
+		this.b= b;
+	}
+	
+	void disp()
+	{
+		System.out.println("First Value = "+this.a+" Second Value = "+this.b);
+	}
+}
+
+
+public class Day9_8 {
+
+	public static void main(String[] args) 
+	{
+		Test<Integer> t1=new Test<Integer>(20,25);
+		t1.disp();
+		
+		Test<Float> t2=new Test<Float>(3.5f,9.8f);
+		t2.disp();
+		
+		
+		Test<Double> t3=new Test<Double>(9.8,4.5);
+		t3.disp();
+		
+		
+		Test<String> t4=new Test<String>("Sunbeam","Java");
+		t4.disp();
+	}
+
+}

@@ -1,0 +1,25 @@
+
+class Test<T>
+{
+	T num;
+	
+	Test(T num)
+	{
+		this.num = num;
+	}
+	
+	getNum()
+	{
+		return this.num;
+	}
+}
+
+
+public class Day9_6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

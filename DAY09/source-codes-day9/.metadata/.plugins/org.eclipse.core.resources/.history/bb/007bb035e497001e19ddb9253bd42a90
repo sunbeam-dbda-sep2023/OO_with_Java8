@@ -1,0 +1,23 @@
+class Demo
+{
+	private int num1,num2;
+	
+	Demo()
+	{
+		
+	}
+	Demo(int num1,int num2)
+	{
+		this.num1=num1;
+		this.num2=num2;
+	}
+
+}
+public class Day9_5 {
+
+	public static void main(String[] args) 
+	{
+		
+	}
+
+}

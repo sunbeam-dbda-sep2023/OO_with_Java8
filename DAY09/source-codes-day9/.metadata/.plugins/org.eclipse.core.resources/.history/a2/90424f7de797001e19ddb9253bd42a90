@@ -1,0 +1,27 @@
+// generic example 
+class Test<T> // class Test is taking one parameter as type parameter T
+{
+	T a,b; // two fields of type parameter T 
+	Test()
+	{}
+	Test(T a,T b) // method of the class is taking one parameter of type T
+	{
+		this.a = a;
+		this.b= b;
+	}
+	
+	void disp()
+	{
+		System.out.println("First Value = "+this.a+" Second Value = "+this.b);
+	}
+}
+
+
+public class Day9_7 {
+
+	public static void main(String[] args) 
+	{
+		
+	}
+
+}

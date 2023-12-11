@@ -1,0 +1,35 @@
+// example of checked exception
+
+/*
+public class Day9_2 {
+
+	public static void main(String[] args)
+	{
+		System.out.println("Core java DBDA");
+		try
+		{
+			Thread.sleep(5000);
+		}
+		catch(InterruptedException e)
+		{
+			System.out.println(e);
+		}
+			
+			System.out.println("topic is checked vs unchecked");
+	}
+
+}
+
+*/
+
+
+public class Day9_2 {
+
+	public static void main(String[] args) throws InterruptedException
+	{
+		System.out.println("Core java DBDA");
+		Thread.sleep(5000);
+		System.out.println("topic is checked vs unchecked");
+	}
+
+}

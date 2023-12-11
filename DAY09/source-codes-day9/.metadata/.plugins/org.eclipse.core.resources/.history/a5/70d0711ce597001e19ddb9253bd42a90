@@ -1,0 +1,25 @@
+
+class Test<T>
+{
+	T num; // num is field who is of type T 
+	
+	Test(T num)
+	{
+		this.num = num;
+	}
+	
+	T getNum()
+	{
+		return this.num;
+	}
+}
+
+
+public class Day9_6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

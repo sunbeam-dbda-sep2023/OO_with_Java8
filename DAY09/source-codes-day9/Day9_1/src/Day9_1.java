@@ -1,0 +1,36 @@
+// Unchecked Exception
+
+/*
+public class Day9_1 {
+
+	public static void main(String[] args) 
+	{
+		String str = "1234abcd";
+		int num = Integer.parseInt(str);
+		System.out.println("Number = "+num);
+
+	}
+
+}
+
+*/
+
+// Can we handle Unchecked Exception? YES ==> how?? ==> try and catch
+
+public class Day9_1 {
+
+	public static void main(String[] args) 
+	{
+		try
+		{
+			String str = "1234abcd";
+			int num = Integer.parseInt(str);
+			System.out.println("Number = "+num);
+		}
+		catch(NumberFormatException e)
+		{
+			System.out.println("Please enter valid number");
+		}
+	}
+
+}

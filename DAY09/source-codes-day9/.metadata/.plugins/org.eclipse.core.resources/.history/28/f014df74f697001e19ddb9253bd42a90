@@ -1,0 +1,112 @@
+import java.util.ArrayList;
+import java.util.List;
+
+/*
+public class Day9_10 {
+
+	public static void main(String[] args) 
+	{
+		ArrayList<Integer> al = new ArrayList<Integer>();
+		al.add(25);
+		al.add(35);
+		al.add(20);
+		al.add(10);
+		al.add(55);
+		System.out.println("Contents of AL = "+al);
+		al.add(39);
+		System.out.println("Contents = "+al);
+		//al.add(9.7); // javac error
+		
+		
+	}
+
+}
+*/
+
+/*
+public class Day9_10 {
+
+	public static void main(String[] args) 
+	{
+		ArrayList al = new ArrayList(); // Raw Type // Not Recommended
+		al.add("sunbeam"); // allowed
+		al.add(25); // allowed 
+		System.out.println("Contents = "+al);
+
+	}
+}
+*/
+
+/*
+public class Day9_10 {
+
+	public static void main(String[] args) 
+	{
+		List<Integer> l1 = new ArrayList<Integer>(); // UPCASTING // VALID 
+		l1.add(25);
+		l1.add(35);
+		l1.add(45);
+		System.out.println("L1 = "+l1);
+		
+	}
+}
+*/
+
+/*
+public class Day9_10 {
+
+	public static void main(String[] args) 
+	{
+		ArrayList<String> al = new ArrayList<String>();
+		al.add("java");
+		al.add("python");
+		al.add("ML");
+		System.out.println("AL = "+al);
+	}
+	
+}
+
+*/
+
+/*
+public class Day9_10 {
+
+	public static void main(String[] args) 
+	{
+		ArrayList<String> al = new ArrayList<String>();
+		ArrayList<String> a2 = al; // REFERENCE COPY
+		al.add("java");
+		al.add("python");
+		al.add("ML");
+		System.out.println("A1 = "+al+" A2 = "+a2);
+		al.add("c++");
+		System.out.println("A1 = "+al+" A2 = "+a2);
+		a2.add("C");
+		System.out.println("A1 = "+al+" A2 = "+a2);
+	}
+	
+}
+
+
+*/
+
+
+
+public class Day9_10 {
+
+	public static void main(String[] args) 
+	{
+		ArrayList<Integer> al = new ArrayList<Integer>();
+		al.add(25);
+		al.add(35);
+		al.add(20);
+		al.add(10);
+		System.out.println("AL = "+al);
+		al.add(2,99);
+		System.out.println("AL = "+al);
+	}
+}
+
+
+
+

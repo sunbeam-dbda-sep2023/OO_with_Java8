@@ -1,0 +1,22 @@
+// accept age from user , using command line argument
+// check if age is >18 then ok else throw one exception
+
+
+
+public class Day9_3 {
+
+	public static void main(String[] args) 
+	{
+		try
+		{
+			int age = Integer.parseInt(args[0]);
+		}
+		catch()
+		{
+			
+		}
+		
+	
+	}
+
+}

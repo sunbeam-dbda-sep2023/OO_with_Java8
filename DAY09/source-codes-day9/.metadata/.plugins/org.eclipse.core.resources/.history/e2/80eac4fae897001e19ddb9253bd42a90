@@ -1,0 +1,31 @@
+
+class Demo<T>
+{
+	T num;
+	void set(T num)
+	{
+		this.num=num;
+	}
+	
+	T get()
+	{
+		return this.num;
+	}	
+}
+
+
+public class Day9_9 {
+
+	public static void main(String[] args) 
+	{
+		Demo<Integer> d1 = new Demo<Integer>();
+		d1.set(20);
+		System.out.println("Value = "+d1.get());
+		
+		Demo<Float> d2 = new Demo<Float>();
+		d2.set(25.5f);
+		System.out.println("Value = "+d2.get());
+
+	}
+
+}
