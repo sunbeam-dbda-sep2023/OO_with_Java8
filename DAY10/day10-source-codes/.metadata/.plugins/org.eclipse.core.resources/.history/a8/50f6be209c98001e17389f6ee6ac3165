@@ -1,0 +1,29 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+// ArrayList and Functions
+
+public class Day10_2 
+{
+	void acceptData(ArrayList<Integer> al)
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter integer type of data");
+		for(int i=0;i<5;i++)
+			al.add(sc.nextInt());
+	}
+	
+	public static void main(String[] args) 
+	{
+		ArrayList<Integer> a1 = new ArrayList<Integer>();
+		ArrayList<Float> a2 = new ArrayList<Float>();
+		ArrayList<Double> a3 = new ArrayList<Double>();
+		ArrayList<String> a4 = new ArrayList<String>();
+		
+		acceptData(a1);
+		dispData(a1);
+		
+		
+	}
+
+}

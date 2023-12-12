@@ -1,0 +1,22 @@
+import java.util.ArrayList;
+
+public class Day10_1 {
+
+	public static void main(String[] args) {
+		ArrayList<Integer> al = new ArrayList<Integer>();
+		System.out.println("Size = "+al.size());
+		
+		// sample data
+		int data[]= {10,20,25,45,12,78,98,46,33,77};
+		
+		// add all the elements from an array to ArrayList
+		
+		for(int i : data)
+			al.add(i);
+		
+		
+		
+
+	}
+
+}

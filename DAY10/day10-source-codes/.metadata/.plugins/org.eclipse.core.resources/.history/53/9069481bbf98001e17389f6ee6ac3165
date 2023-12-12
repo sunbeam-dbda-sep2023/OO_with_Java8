@@ -1,0 +1,10 @@
+
+public class Day10_14 {
+
+	public static void main(String[] args) 
+	{
+		Queue<Integer> q = new ArrayDeque<Integer>();
+		
+	}
+
+}

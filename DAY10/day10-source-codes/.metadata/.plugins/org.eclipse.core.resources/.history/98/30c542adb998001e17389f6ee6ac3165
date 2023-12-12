@@ -1,0 +1,42 @@
+import java.util.Stack;
+
+/*
+public class Day10_11 {
+
+	public static void main(String[] args) 
+	{
+		Stack<Integer> stk = new Stack<Integer>();
+		stk.push(10);
+		stk.push(20);
+		System.out.println("Stack contents = "+stk);
+		System.out.println("Top element in stack = "+stk.peek());
+		stk.pop();
+		System.out.println("Stack contents = "+stk);
+		stk.pop();
+		System.out.println("Stack contents = "+stk);
+		System.out.println("is stack empty ? "+stk.isEmpty());
+		
+
+	}
+
+}
+
+*/
+
+
+
+public class Day10_11 {
+
+	public static void main(String[] args) 
+	{
+		Stack<Integer> stk = new Stack<Integer>();
+		stk.push(10);
+		stk.push(20);
+		stk.push(30);
+		stk.push(40);
+		stk.push(50);
+		System.out.println("Stack = "+stk);
+		System.out.println("Search = "+stk.search(40));
+		
+	}
+}

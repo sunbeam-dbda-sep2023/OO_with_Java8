@@ -1,0 +1,73 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+// ? extends Number Upper bounded wild card 
+// ArrayList and Functions
+
+public class Day10_4
+{
+	static void acceptIntData(ArrayList<Integer> al)
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter integer type of data");
+		for(int i=0;i<3;i++)
+			al.add(sc.nextInt());
+	}
+	
+	
+	static void acceptFloatData(ArrayList<Float> al)
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter float type of data");
+		for(int i=0;i<3;i++)
+			al.add(sc.nextFloat());
+	}
+	
+	static void acceptDoubleData(ArrayList<Double> al)
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter double type of data");
+		for(int i=0;i<3;i++)
+			al.add(sc.nextDouble());
+	}
+	
+	static void acceptStringData(ArrayList<String> al)
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter string type of data");
+		for(int i=0;i<3;i++)
+			al.add(sc.next());
+	}
+	
+	static void dispData(ArrayList<? extends Number> al)
+	{
+		System.out.println("Contents of AL  = "+al);
+	}
+	
+		
+	public static void main(String[] args) 
+	{
+		ArrayList<Integer> a1 = new ArrayList<Integer>();
+		ArrayList<Float> a2 = new ArrayList<Float>();
+		ArrayList<Double> a3 = new ArrayList<Double>();
+		ArrayList<String> a4 = new ArrayList<String>();
+		
+		acceptIntData(a1);
+		acceptFloatData(a2);
+		acceptDoubleData(a3);
+		acceptStringData(a4);
+		
+		System.out.println("Elements are :");
+		dispData(a1);
+		System.out.println();
+		dispData(a2);
+		
+		System.out.println();
+		dispData(a3);
+		
+		System.out.println();
+		//dispData(a4);
+		
+	}
+
+}

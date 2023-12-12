@@ -1,0 +1,27 @@
+import java.util.ArrayList;
+
+public class Day10_6 {
+
+	public static void main(String[] args) 
+	{
+		int data[]= {10,15,25,9,8,76,28,90,75};
+		ArrayList<Integer> al = new ArrayList<Integer>();
+		
+		for(int i:data)
+			al.add(i);
+		
+		for(int i:al)
+			System.out.print(i+"\t");
+		
+		ArrayList<Integer> a2 = new ArrayList<Integer>();
+		a2.add(88);
+		a2.add(99);
+		
+		al.addAll(3,a2);
+		System.out.println();
+		for(int i:al)
+			System.out.print(i+"\t");
+		
+	}
+
+}

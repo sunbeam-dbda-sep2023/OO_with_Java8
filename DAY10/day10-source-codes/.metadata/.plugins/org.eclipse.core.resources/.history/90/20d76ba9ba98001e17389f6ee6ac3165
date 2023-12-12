@@ -1,0 +1,10 @@
+import java.util.Vector;
+
+public class Day10_12 {
+
+	public static void main(String[] args)
+	{
+		Vector<Integer> vec = new Vector<Integer>();
+	}
+
+}

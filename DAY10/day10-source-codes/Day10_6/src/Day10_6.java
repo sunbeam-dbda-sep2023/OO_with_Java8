@@ -1,0 +1,39 @@
+import java.util.ArrayList;
+// methods of ArrayList class
+
+public class Day10_6 {
+
+	public static void main(String[] args) 
+	{
+		int data[]= {10,15,25,9,8,76,28,90,75};
+		ArrayList<Integer> al = new ArrayList<Integer>();
+		
+		for(int i:data)
+			al.add(i);
+		
+		for(int i:al)
+			System.out.print(i+"\t");
+		
+		ArrayList<Integer> a2 = new ArrayList<Integer>();
+		a2.add(88);
+		a2.add(99);
+		
+		al.addAll(3,a2);
+		System.out.println();
+		for(int i:al)
+			System.out.print(i+"\t");
+		
+		System.out.println();
+		System.out.println("is my AL Contains element 28 ? "+al.contains(28));
+		
+		System.out.println("is my AL Contains element 12345 ? "+al.contains(12345));
+		
+		System.out.println("Get element at location 7 = "+al.get(7));
+		//System.out.println("Get element at location 20 = "+al.get(20));
+		System.out.println("index of element 88 = "+al.indexOf(88));
+		System.out.println("index of element 4567 = "+al.indexOf(4567));
+		System.out.println("is empty? "+al.isEmpty());
+		System.out.println("Remove elements at = "+al.remove(2));
+	}
+
+}

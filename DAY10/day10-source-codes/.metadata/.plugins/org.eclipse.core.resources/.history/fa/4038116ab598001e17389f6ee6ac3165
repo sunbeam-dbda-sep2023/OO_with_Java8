@@ -1,0 +1,21 @@
+import java.util.LinkedList;
+
+public class Day10_10 {
+
+	public static void main(String[] args) 
+	{
+		LinkedList<Integer> l1 = new LinkedList<Integer>();
+		l1.add(25);
+		l1.add(35);
+		l1.add(45);
+		l1.add(55);
+		l1.add(65);
+		System.out.println("Linked List = "+l1);
+		l1.addFirst(10);
+		System.out.println("Linked List = "+l1);
+		
+		
+
+	}
+
+}

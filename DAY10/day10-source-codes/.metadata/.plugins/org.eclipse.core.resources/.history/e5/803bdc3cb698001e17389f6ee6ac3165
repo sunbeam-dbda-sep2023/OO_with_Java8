@@ -1,0 +1,34 @@
+import java.util.LinkedList;
+
+public class Day10_10 {
+
+	public static void main(String[] args) 
+	{
+		LinkedList<Integer> l1 = new LinkedList<Integer>();
+		l1.add(25);
+		l1.add(35);
+		l1.add(45);
+		l1.add(55);
+		l1.add(65);
+		System.out.println("Linked List = "+l1);
+		l1.addFirst(10);
+		System.out.println("Linked List = "+l1);
+		
+		l1.addLast(99);
+		System.out.println("Linked List = "+l1);
+		System.out.println("get the element at location = "+l1.get(4));
+		System.out.println("Get First ="+l1.getFirst());
+		System.out.println("Get Last = "+l1.getLast());
+		
+		System.out.println(l1.removeFirst());
+		System.out.println(l1.removeLast());
+		System.out.println("Linked List = "+l1);
+		System.out.println();
+		for(Integer i : l1)
+			System.out.print(i+"\t");
+		
+		
+
+	}
+
+}

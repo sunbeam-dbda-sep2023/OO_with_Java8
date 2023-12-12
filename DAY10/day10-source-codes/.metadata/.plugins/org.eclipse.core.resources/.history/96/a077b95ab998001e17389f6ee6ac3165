@@ -1,0 +1,15 @@
+import java.util.Stack;
+
+public class Day10_11 {
+
+	public static void main(String[] args) 
+	{
+		Stack<Integer> stk = new Stack<Integer>();
+		stk.push(10);
+		stk.push(20);
+		System.out.println("Stack contents = "+stk);
+		
+
+	}
+
+}

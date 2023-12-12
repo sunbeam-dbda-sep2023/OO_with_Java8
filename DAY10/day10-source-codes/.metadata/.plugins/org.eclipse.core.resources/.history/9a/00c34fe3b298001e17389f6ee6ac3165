@@ -1,0 +1,27 @@
+class Student
+{
+	int rn;
+	int marks;
+	Student()
+	{
+		
+	}
+	Student(int rn,int marks)
+	{
+		this.rn=rn;
+		this.marks=marks;
+	}
+
+	public String toString()
+	{
+		return "Roll no "+this.rn+" Marks = "+this.marks;
+	}
+}
+public class Day10_9 {
+
+	public static void main(String[] args)
+	{
+		
+	}
+
+}

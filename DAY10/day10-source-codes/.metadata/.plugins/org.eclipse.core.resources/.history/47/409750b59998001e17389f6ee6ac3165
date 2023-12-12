@@ -1,0 +1,10 @@
+import java.util.ArrayList;
+
+public class Day10_1 {
+
+	public static void main(String[] args) {
+		ArrayList<Integer> al = new ArrayList<Integer>();
+
+	}
+
+}

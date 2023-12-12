@@ -1,0 +1,16 @@
+import java.util.Vector;
+
+public class Day10_13 {
+
+	public static void main(String[] args) 
+	{
+		Vector<Integer> vec = new Vector<Integer>(5);
+		vec.add(10);
+		vec.add(20);
+		vec.add(30);
+		vec.add(40);
+		vec.add(50);
+		
+	}
+
+}

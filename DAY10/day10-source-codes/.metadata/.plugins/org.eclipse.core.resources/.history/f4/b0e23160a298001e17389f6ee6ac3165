@@ -1,0 +1,13 @@
+
+public class Day10_6 {
+
+	public static void main(String[] args) 
+	{
+		int data[]= {10,15,25,9,8,76,28,90,75};
+		ArrayList<Integer> a1 = new ArrayList<Integer>();
+		
+		for(int i:data)
+			
+	}
+
+}
