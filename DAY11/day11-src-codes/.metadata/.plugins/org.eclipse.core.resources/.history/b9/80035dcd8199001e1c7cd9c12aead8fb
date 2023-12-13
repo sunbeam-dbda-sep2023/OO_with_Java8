@@ -1,0 +1,14 @@
+import java.io.File;
+
+// create an empty new file
+
+public class Day11_9 
+{
+	public static void main(String[] args) 
+	{
+		File fobj = new File();
+		fobj.createNewFile();
+
+	}
+
+}

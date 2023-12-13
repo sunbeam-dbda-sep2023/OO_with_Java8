@@ -1,0 +1,27 @@
+class Movie
+{
+	private double rating;
+	private int year;
+	private String name;
+	
+	public Movie(double rating, int year, String name) 
+	{
+		super();
+		this.rating = rating;
+		this.year = year;
+		this.name = name;
+	}
+	
+	
+	
+} // end of Movie class
+
+
+public class Day11_7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

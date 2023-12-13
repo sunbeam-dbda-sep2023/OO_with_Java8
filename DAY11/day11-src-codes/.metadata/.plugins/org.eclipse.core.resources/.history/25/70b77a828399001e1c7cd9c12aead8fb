@@ -1,0 +1,10 @@
+// fetch the meta data of the file
+
+public class Day11_10 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

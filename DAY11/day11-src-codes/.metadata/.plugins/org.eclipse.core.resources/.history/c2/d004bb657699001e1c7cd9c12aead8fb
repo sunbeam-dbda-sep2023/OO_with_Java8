@@ -1,0 +1,10 @@
+
+public class Day11_6 {
+
+	public static void main(String[] args) 
+	{
+		ArrayList<Integer> al = new ArrayList<Integer>();
+		
+	}
+
+}

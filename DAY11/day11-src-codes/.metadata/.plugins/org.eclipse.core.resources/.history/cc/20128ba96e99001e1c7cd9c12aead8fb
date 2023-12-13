@@ -1,0 +1,21 @@
+import java.util.HashMap;
+
+// HashMap
+
+public class Day11_5 {
+
+	public static void main(String[] args)
+	{
+		HashMap<Integer,String> hm = new HashMap<Integer,String>();
+		hm.put(10, "emp1");
+		hm.put(20, "emp2");
+		hm.put(30, "emp3");
+		hm.put(40, "emp4");
+		System.out.println("Contents of HashMap = "+hm);
+		
+		
+		
+		
+	}
+
+}

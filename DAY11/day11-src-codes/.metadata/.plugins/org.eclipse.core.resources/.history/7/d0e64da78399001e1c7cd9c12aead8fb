@@ -1,0 +1,13 @@
+import java.io.File;
+
+// fetch the meta data of the file
+
+public class Day11_10 {
+
+	public static void main(String[] args) 
+	{
+		File fobj= new File(" C:\Users\sunbeam\Desktop\Code\DAY11\Day11_9\src\Day11_9.java");
+		
+	}
+
+}

@@ -1,0 +1,94 @@
+import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.TreeSet;
+
+//HashSet
+// Unordered (insertion order is not guaranteed)
+// Unsorted
+// no duplicates are allowed 
+// allows null only once 
+
+/*
+public class Day11_2 {
+
+	public static void main(String[] args)
+	{
+		HashSet<Integer> hs = new HashSet<Integer>();
+		hs.add(20);
+		hs.add(10);
+		hs.add(15);
+		hs.add(25);
+		hs.add(55);
+		System.out.println("Contents of hash set = "+hs);
+		hs.add(25);
+		
+		System.out.println("Contents of hash set = "+hs);
+		hs.add(null);
+		System.out.println("Contents of hash set = "+hs);
+		hs.add(null);
+		System.out.println("Contents of hash set = "+hs);
+	}
+
+}
+
+*/
+
+// LinkedHashSet
+// Ordered
+// Unsorted
+// no duplicates are allowed
+// allows null value only once
+
+
+/*
+public class Day11_2 {
+
+	public static void main(String[] args)
+	{
+		LinkedHashSet<Integer> lhs = new LinkedHashSet<Integer>();
+		lhs.add(120);
+		lhs.add(110);
+		lhs.add(115);
+		lhs.add(251);
+		lhs.add(551);
+		System.out.println("Contents of Linked hash set = "+lhs);
+		lhs.add(251);
+		
+		System.out.println("Contents of hash set = "+lhs);
+		lhs.add(null);
+		System.out.println("Contents of hash set = "+lhs);
+		lhs.add(null);
+		System.out.println("Contents of hash set = "+lhs);
+	}
+
+}
+*/
+
+
+//TreeSet
+// Unordered
+// Sorted
+// no duplicates are allowed
+// does not allow any null (otherwise it gives NullPointerException)
+public class Day11_2 {
+
+	public static void main(String[] args)
+	{
+		TreeSet<Integer> ts = new TreeSet<Integer>();
+		ts.add(20);
+		ts.add(10);
+		ts.add(15);
+		ts.add(25);
+		ts.add(55);
+		System.out.println("Contents of hash set = "+ts);
+		ts.add(25);
+		
+		System.out.println("Contents of hash set = "+ts);
+		ts.add(null);
+		System.out.println("Contents of hash set = "+ts);
+		
+	}
+
+}
+
+

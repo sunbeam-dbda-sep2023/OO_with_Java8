@@ -1,0 +1,21 @@
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class Day11_6 {
+
+	public static void main(String[] args) 
+	{
+		ArrayList<Integer> al = new ArrayList<Integer>();
+		al.add(30);
+		al.add(20);
+		al.add(35);
+		al.add(45);
+		al.add(55);
+		System.out.println("Original AL = "+al);
+		Collections.sort(al);
+		System.out.println("Sorted AL = "+al);
+		Collections.reverse(al);
+		System.out.println("Soreted Reversed AL = "+al);
+	}
+
+}

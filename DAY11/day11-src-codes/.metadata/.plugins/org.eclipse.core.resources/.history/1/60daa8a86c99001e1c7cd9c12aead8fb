@@ -1,0 +1,68 @@
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+
+//HashMap
+// unordered
+// unsorted
+// duplicate key is not allowed , if we do so, it will overwrite its value
+// duplicate value is allowed
+// one null key is allowed 
+// value can be assigned null to many keys
+
+/*
+public class Day11_4 {
+
+	public static void main(String[] args) 
+	{
+		HashMap<Integer,String> hm = new HashMap<Integer,String>();
+		hm.put(20,"st1");
+		hm.put(30,"st2");
+		hm.put(40,"st3");
+		hm.put(10,"st4");
+		hm.put(4,"st5");
+		System.out.println("Hash Map = "+hm); 
+		hm.put(4,"st6");
+		System.out.println("Hash Map = "+hm); 
+		hm.put(50,"st6");
+		System.out.println("Hash Map = "+hm); 
+		hm.put(null,"st7");
+		System.out.println("Hash Map = "+hm); 
+		hm.put(null,"st8");
+		System.out.println("Hash Map = "+hm); 
+		hm.put(null,null);
+		System.out.println("Hash Map = "+hm); 
+		hm.put(65,null);
+		System.out.println("Hash Map = "+hm); 
+	}
+
+}
+
+*/
+
+
+public class Day11_4 {
+
+	public static void main(String[] args) 
+	{
+		LinkedHashMap<Integer,String> lhm = new LinkedHashMap<Integer,String>();
+		lhm.put(20,"st1");
+		lhm.put(30,"st2");
+		lhm.put(40,"st3");
+		lhm.put(10,"st4");
+		lhm.put(4,"st5");
+		System.out.println("Hash Map = "+lhm); 
+		lhm.put(4,"st6");
+		System.out.println("Hash Map = "+lhm); 
+		lhm.put(50,"st6");
+		System.out.println("Hash Map = "+lhm); 
+		lhm.put(null,"st7");
+		System.out.println("Hash Map = "+lhm); 
+		lhm.put(null,"st8");
+		System.out.println("Hash Map = "+hm); 
+		lhm.put(null,null);
+		System.out.println("Hash Map = "+hm); 
+		lhm.put(65,null);
+		System.out.println("Hash Map = "+hm); 
+	}
+
+}

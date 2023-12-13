@@ -1,0 +1,23 @@
+import java.io.File;
+import java.io.IOException;
+
+// create an empty new file
+
+public class Day11_9 
+{
+	public static void main(String[] args) 
+	{
+		File fobj = new File("Demo.txt");
+		try
+		{
+			boolean status = fobj.createNewFile();
+			System.out.println("Status = "+status);
+		} 
+		catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+
+}
