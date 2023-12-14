@@ -1,0 +1,61 @@
+import java.util.ArrayList;
+
+
+/*
+// Single valued annotation
+
+public class Day12_11 {
+
+	@SuppressWarnings("unchecked")
+	public static void main(String[] args)
+	{
+		@SuppressWarnings("rawtypes")
+		ArrayList al = new ArrayList();
+		al.add("test");
+		al.add(20);
+		
+		@SuppressWarnings("rawtypes")
+		ArrayList a2 = new ArrayList();
+		
+		
+	}
+
+}
+
+*/
+
+/*
+// multi valued annotation
+
+public class Day12_11 {
+
+	
+	@SuppressWarnings({ "rawtypes", "unchecked" })
+	public static void main(String[] args)
+	{
+		
+		ArrayList al = new ArrayList();
+		al.add("test");
+		al.add(20);
+		
+	
+		ArrayList a2 = new ArrayList();
+		
+		
+	}
+
+}
+*/
+
+public class Day12_11 {
+
+	
+	public static void main(String[] args)
+	{
+		@SuppressWarnings("deprecation")
+		Integer iobj = new Integer(40);
+		
+	
+		
+	}
+}

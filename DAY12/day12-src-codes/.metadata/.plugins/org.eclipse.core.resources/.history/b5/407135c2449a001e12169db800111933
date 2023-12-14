@@ -1,0 +1,18 @@
+import java.util.ArrayList;
+
+
+
+public class Day12_11 {
+
+	public static void main(String[] args)
+	{
+		@SuppressWarnings("rawtypes")
+		ArrayList al = new ArrayList();
+		
+		@SuppressWarnings("rawtypes")
+		ArrayList a2 = new ArrayList();
+		
+		
+	}
+
+}

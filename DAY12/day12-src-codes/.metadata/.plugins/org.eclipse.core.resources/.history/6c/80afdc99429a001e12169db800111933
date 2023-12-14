@@ -1,0 +1,27 @@
+
+class Person
+{
+	void disp()
+	{
+		
+	}
+}
+
+class Employee extends Person
+{
+	void disp()
+	{
+	}
+	
+	}
+}
+
+
+public class Day12_10 {
+
+	public static void main(String[] args) 
+	{
+	
+	}
+
+}

@@ -1,0 +1,35 @@
+import java.lang.reflect.Field;
+
+class Test
+{
+	int num1;
+	int num2;
+	Test()
+	{
+		
+	}
+	Test(int num1,int num2)
+	{
+		this.num1=num1;
+		this.num2=num2;
+	}
+}
+
+public class Day12_15 {
+
+	public static void main(String[] args) 
+	{
+		// Class c = Class.forName("Test");
+		 Class c = Test.class;
+		 
+		 Field farr[] = c.getFields();
+		 
+		 for(Field f : farr)
+			 System.out.println(f);
+		 
+		 
+		
+
+	}
+
+}

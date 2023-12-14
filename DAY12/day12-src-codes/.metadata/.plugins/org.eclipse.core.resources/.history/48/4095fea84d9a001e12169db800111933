@@ -1,0 +1,13 @@
+// three ways to reflect a class
+// 1. getClass() 
+// 2. forName()
+// 3. .class file name
+
+public class Day12_14
+{
+
+	public static void main(String[] args) 
+	{
+	}
+
+}

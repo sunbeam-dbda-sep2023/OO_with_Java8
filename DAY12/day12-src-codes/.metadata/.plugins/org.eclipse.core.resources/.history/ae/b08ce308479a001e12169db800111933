@@ -1,0 +1,15 @@
+
+public class Day12_12 {
+
+	static void disp(int... arg)
+	{	
+		
+	}
+	public static void main(String[] args) {
+		
+			disp(10);
+			disp(10,20);
+			disp(10,20,30);
+	}
+
+}

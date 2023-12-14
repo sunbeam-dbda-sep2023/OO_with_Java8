@@ -1,0 +1,26 @@
+// three ways to reflect a class
+// 1. getClass() 
+// 2. forName()
+// 3. .class file name
+
+class Demo
+{
+	
+}
+
+public class Day12_14
+{
+
+	public static void main(String[] args) throws ClassNotFoundException 
+	{
+		Class c = Class.forName("Demo");
+		System.out.println(c);
+		
+		Class c2 = Demo.class;
+		System.out.println(c2);
+		
+		Demo dobj = new Demo();
+		System.out.println(dobj.getClass());
+	}
+
+}

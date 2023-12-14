@@ -1,0 +1,13 @@
+package p1;
+
+import java.lang.annotation.Documented;
+import java.lang.annotation.Target;
+
+@Documented
+@Target(FIELD)
+
+public @interface Author {
+ String firstName();
+ String lastName();
+ 
+}
