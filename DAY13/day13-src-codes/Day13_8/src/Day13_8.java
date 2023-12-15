@@ -1,0 +1,27 @@
+
+@FunctionalInterface
+interface MathDemo
+{
+	void add(int n1,int n2);
+	// public abstract  method 
+}
+
+@FunctionalInterface
+interface StrDemo
+{
+	String disp(); // public abstract  method 
+}
+
+public class Day13_8
+{
+
+	public static void main(String[] args) 
+	{
+		MathDemo md = (a,b) -> {System.out.println("Addition = "+(a+b));} ; 
+		StrDemo sd =  () -> {return "Hello!! Everyone!!";}; 
+		md.add(9, 8);
+		System.out.println(sd.disp());
+
+	}
+
+}

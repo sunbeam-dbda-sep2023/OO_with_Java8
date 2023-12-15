@@ -1,0 +1,26 @@
+// Method Reference
+
+@FunctionalInterface
+interface Test
+{
+	void display();
+	// public abstract 
+}
+
+public class Day13_9
+{
+	void m1()
+	{
+		System.out.println("Inside the method m1");
+	}
+	
+	public static void main(String[] args)
+	{
+		Day13_9 dobj = new Day13_9();
+		//dobj.m1();
+	
+		
+	
+	}
+
+}

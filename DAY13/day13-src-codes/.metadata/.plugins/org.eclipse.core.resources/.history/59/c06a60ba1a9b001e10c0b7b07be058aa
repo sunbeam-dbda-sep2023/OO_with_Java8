@@ -1,0 +1,26 @@
+// Method Reference for the constructor 
+
+@FunctionalInterface
+interface Test
+{
+	 Demo disp(String str);
+	// public abstract 
+}
+
+class Demo
+{
+	Demo(String str)
+	{
+		System.out.println("Data = "+str);
+	}
+}
+
+public class Day13_11 {
+
+	public static void main(String[] args) 
+	{
+		Test tref = 
+			tref.disp();
+	}
+
+}

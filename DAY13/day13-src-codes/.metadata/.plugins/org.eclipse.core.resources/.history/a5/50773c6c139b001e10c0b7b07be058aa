@@ -1,0 +1,22 @@
+
+@FunctionalInterface
+interface MathDemo
+{
+	void add(int n1,int n2);
+	//public abstract 
+}
+
+interface StrDemo
+{
+	String disp();
+}
+
+
+public class Day13_8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

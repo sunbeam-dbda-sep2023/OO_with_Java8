@@ -1,0 +1,32 @@
+// Default methods 
+
+interface Test
+{
+	void add(); // method declaration
+	// public static
+	
+	default void m1()
+	{
+		System.out.println("Inside interface method m1");
+	}
+}
+
+class Demo implements Test
+{
+	void add()
+	{
+		System.out.println("Addition = "+(20+15));
+	}
+}
+
+
+
+
+public class Day13_2 {
+
+	public static void main(String[] args) 
+	{
+		
+	}
+
+}

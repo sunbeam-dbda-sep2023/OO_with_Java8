@@ -1,0 +1,93 @@
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+
+@Author(firstName="Akshita",lastName="Chanchlani")
+class ReflectionDemo
+{
+	private String str;
+	public ReflectionDemo()
+	{
+		str = "SunbeamInfotech";
+	}
+	public ReflectionDemo(String str)
+	{
+		this.str=str;
+	}
+	
+	public void m1()
+	{
+		System.out.println("Inside method m1 "+str);
+	}
+	
+	public void m2(int num)
+	{
+		System.out.println("Inside method m2 "+num);
+	}
+	
+	private void m3()
+	{
+		System.out.println("Inside method m3");
+	}
+	
+}
+
+
+/*
+public class Day13_1 {
+
+	public static void main(String[] args)
+	{
+		ReflectionDemo obj = new ReflectionDemo();
+		Class cls = obj.getClass();
+		System.out.println("Name of the class = "+cls.getName());
+		
+		Constructor ctarr[] = cls.getConstructors();
+		for(Constructor c : ctarr)
+			System.out.println(c+"\t"+c.getName()+"\t"+c.getParameterCount());
+		
+		System.out.println("Fetching meta data about the methods");
+		Method marr[] = cls.getMethods();
+		for(Method m : marr)
+			System.out.println(m+"\t"+m.getName()+"\t"+m.getParameterCount());
+	
+		System.out.println();
+		Method mtdarr[] = cls.getDeclaredMethods();
+		for(Method m : mtdarr)
+			System.out.println(m+"\t"+m.getName()+"\t"+m.getParameterCount());
+	
+	
+		System.out.println("Fetching the fields metdadata");
+		Field farr[] = cls.getDeclaredFields();
+		for(Field f : farr)
+			System.out.println(f+"\t"+f.getName());
+		
+	
+	
+	}
+
+}
+*/
+
+public class Day13_1 {
+
+	public static void main(String[] args) throws NoSuchMethodException, SecurityException, IllegalAccessException, IllegalArgumentException, InvocationTargetException
+	{
+		ReflectionDemo obj = new ReflectionDemo();
+		Class cls = obj.getClass();
+		
+		Method mtd1 = cls.getDeclaredMethod("m1");
+		mtd1.invoke(obj);
+		
+		Method mtd2 = cls.getDeclaredMethod("m2", int.class);
+		mtd2.invoke(obj,45);
+		
+		Method mtd3 = cls.getDeclaredMethod("m3");
+		mtd3.setAccessible(true);
+		mtd3.invoke(obj);
+		
+		
+
+	}
+}

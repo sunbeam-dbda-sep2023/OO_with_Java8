@@ -1,0 +1,17 @@
+@FunctionalInterface
+interface Demo
+{
+	void cal(int a ,int b);
+	//public abstract
+}
+
+public class Day13_7 
+{
+
+	public static void main(String[] args) {
+		Demo dref = (n1,n2) -> {System.out.println("N1 * N2 = "+(n1*n2));};
+		dref.cal(20,40);
+
+	}
+
+}

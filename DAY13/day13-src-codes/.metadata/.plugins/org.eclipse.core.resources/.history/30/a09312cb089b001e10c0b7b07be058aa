@@ -1,0 +1,15 @@
+import java.util.Arrays;
+
+// lambda expression
+
+// list of numbers to be printed with a lambda
+
+public class Day13_4 {
+
+	public static void main(String[] args) 
+	{
+		Arrays.asList(10,20,30,40,50);
+		
+	}
+
+}

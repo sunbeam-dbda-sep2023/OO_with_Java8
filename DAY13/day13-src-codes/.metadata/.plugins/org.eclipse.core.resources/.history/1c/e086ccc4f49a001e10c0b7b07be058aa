@@ -1,0 +1,24 @@
+class ReflectionDemo
+{
+	private String str;
+	public ReflectionDemo()
+	{
+		str = "SunbeamInfotech";
+	}
+	
+	public void m1()
+	{
+		System.out.println("Inside method m1 "+str);
+	}
+	
+	
+}
+
+public class Day13_1 {
+
+	public static void main(String[] args)
+	{
+		
+	}
+
+}

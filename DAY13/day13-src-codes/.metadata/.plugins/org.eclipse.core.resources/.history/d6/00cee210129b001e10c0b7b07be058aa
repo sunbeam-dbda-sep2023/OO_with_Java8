@@ -1,0 +1,14 @@
+interface Test
+{
+	public String getData();
+}
+
+
+public class Day13_6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

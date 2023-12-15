@@ -1,0 +1,35 @@
+class ReflectionDemo
+{
+	private String str;
+	public ReflectionDemo()
+	{
+		str = "SunbeamInfotech";
+	}
+	
+	public void m1()
+	{
+		System.out.println("Inside method m1 "+str);
+	}
+	
+	public void m2(int num)
+	{
+		System.out.println("Inside method m2 "+num);
+	}
+	
+	private void m3()
+	{
+		System.out.println("Inside method m3");
+	}
+	
+}
+
+public class Day13_1 {
+
+	public static void main(String[] args)
+	{
+		ReflectionDemo obj = new ReflectionDemo();
+		Class cls = obj.getClass();
+		System.out.println("Name of the class = "+cls.getName());
+	}
+
+}

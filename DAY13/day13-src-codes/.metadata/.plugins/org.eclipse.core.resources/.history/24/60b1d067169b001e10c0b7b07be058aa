@@ -1,0 +1,15 @@
+// Method Reference
+interface Test
+{
+	void display();
+	
+}
+public class Day13_9
+{
+	public static void main(String[] args)
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+}

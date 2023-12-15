@@ -1,0 +1,22 @@
+// Method Reference for the constructor 
+interface Test
+{
+	
+}
+
+class Demo
+{
+	Demo(String str)
+	{
+		System.out.println("Data = "+str);
+	}
+}
+
+public class Day13_11 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

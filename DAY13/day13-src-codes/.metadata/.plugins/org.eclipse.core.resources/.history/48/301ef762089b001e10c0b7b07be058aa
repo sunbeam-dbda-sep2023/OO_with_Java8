@@ -1,0 +1,11 @@
+// lambda expression
+
+// list of numbers to be printed with a lambda
+public class Day13_4 {
+
+	public static void main(String[] args) 
+	{
+		
+	}
+
+}

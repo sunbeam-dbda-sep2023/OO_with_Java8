@@ -1,0 +1,18 @@
+// Default methods 
+
+interface Test
+{
+	void add(); // method declaration
+	// public static
+	
+}
+
+
+public class Day13_2 {
+
+	public static void main(String[] args) 
+	{
+		
+	}
+
+}

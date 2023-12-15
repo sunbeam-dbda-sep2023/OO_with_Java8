@@ -1,0 +1,11 @@
+// Method reference to instance method
+
+
+public class Day13_10 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

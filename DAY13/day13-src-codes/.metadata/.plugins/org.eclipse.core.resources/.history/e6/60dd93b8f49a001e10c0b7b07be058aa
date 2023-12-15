@@ -1,0 +1,19 @@
+class ReflectionDemo
+{
+	private String str;
+	public ReflectionDemo()
+	{
+		str = "SunbeamInfotech";
+	}
+	
+	
+}
+
+public class Day13_1 {
+
+	public static void main(String[] args)
+	{
+		
+	}
+
+}
