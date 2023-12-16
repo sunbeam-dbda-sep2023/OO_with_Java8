@@ -1,0 +1,13 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Day14_4 {
+
+	public static void main(String[] args) 
+	{
+		List<Integer> l1 = new ArrayList<Integer>();
+		Stream<Integer> s1 = l1.stream();
+		
+	}
+
+}

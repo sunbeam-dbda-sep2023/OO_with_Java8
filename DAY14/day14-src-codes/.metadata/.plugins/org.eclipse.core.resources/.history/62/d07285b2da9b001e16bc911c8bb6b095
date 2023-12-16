@@ -1,0 +1,10 @@
+import java.util.Arrays;
+
+public class Day14_7 {
+
+	public static void main(String[] args) 
+	{
+		List<String> l1 = Arrays.asList("Sunbeam","Trainer","Akshita","DBDA");
+	}
+
+}

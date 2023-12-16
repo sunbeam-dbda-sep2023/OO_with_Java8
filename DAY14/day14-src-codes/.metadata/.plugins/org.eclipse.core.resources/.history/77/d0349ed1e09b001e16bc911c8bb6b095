@@ -1,0 +1,9 @@
+
+public class Day14_8 {
+
+	public static void main(String[] args) 
+	{
+		Thread th = Thread.currentThread();
+	}
+
+}

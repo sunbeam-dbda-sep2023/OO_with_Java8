@@ -1,0 +1,15 @@
+
+public class Day14_8 {
+
+	public static void main(String[] args) 
+	{
+		Thread th = Thread.currentThread();
+		System.out.println("Get ID = "+th.getId());
+		System.out.println("Name = "+th.getName());
+		System.out.println("Priority = "+th.getPriority());
+		System.out.println("State = "+th.getState().name());
+		
+		
+	}
+
+}

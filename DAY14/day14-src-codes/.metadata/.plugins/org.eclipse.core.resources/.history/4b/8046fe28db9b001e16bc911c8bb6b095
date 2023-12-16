@@ -1,0 +1,14 @@
+import java.util.Arrays;
+import java.util.List;
+
+public class Day14_7 {
+
+	public static void main(String[] args) 
+	{
+		List<String> l1 = Arrays.asList("Sunbeam","Trainer","Akshita","DBDA");
+		l1.stream()
+		.map(x -> x+"Java")
+		.forEach(System.out::println);
+	}
+
+}
