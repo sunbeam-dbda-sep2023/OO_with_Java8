@@ -1,0 +1,37 @@
+// yield()
+//A hint to the scheduler that the current thread is willing to yield
+// its current use of a processor.
+
+public class Day15_8 extends Thread
+{
+	
+	public void run()
+	{
+		for(int i=10;i<15;i++)
+		{
+			System.out.println(this.getName()+":"+i+"\t");
+			try
+			{
+				Thread.sleep(1000);
+			}
+			catch(Exception e)
+			{
+				System.out.println(e);
+			}
+		}
+	}
+	public static void main(String[] args) 
+	{
+		Day15_8 t1 = new Day15_8();
+		Day15_8 t2 = new Day15_8();
+	//	Day15_8 t3 = new Day15_8();
+		
+		t1.start();
+		t2.start();
+		t1.yield();
+		//t2.start();
+		//t3.start();
+
+	}
+
+}

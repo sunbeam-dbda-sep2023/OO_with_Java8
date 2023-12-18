@@ -1,0 +1,12 @@
+// thread creation by extending Thread class
+
+
+
+public class Day15_1 {
+
+	public static void main(String[] args) 
+	{
+		
+	}
+
+}

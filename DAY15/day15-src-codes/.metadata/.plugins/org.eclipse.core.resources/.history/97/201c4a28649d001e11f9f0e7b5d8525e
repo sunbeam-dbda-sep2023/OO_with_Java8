@@ -1,0 +1,9 @@
+package p1;
+
+public class Utils 
+{
+	public static void delay(int milli)
+	{
+		Thread.sleep(milli);
+	}
+}

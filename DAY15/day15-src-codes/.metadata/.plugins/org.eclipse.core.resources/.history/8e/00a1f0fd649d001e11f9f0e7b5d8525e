@@ -1,0 +1,25 @@
+package p1;
+
+public class Day15_11 {
+
+	public static void main(String[] args) 
+	{
+		Account acc = new Account(123,"Saving",45000.0);
+		final double amount = 1000.0;
+		
+		Thread dt = new Thread(() -> {
+			
+		});
+		dt.start();
+		
+		Thread wt = new Thread();
+		wt.start();
+		
+		
+		
+
+		
+
+	}
+
+}

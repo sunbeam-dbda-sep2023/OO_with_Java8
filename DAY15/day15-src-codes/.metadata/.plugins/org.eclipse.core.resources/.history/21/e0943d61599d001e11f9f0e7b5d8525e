@@ -1,0 +1,37 @@
+
+class Test
+{
+	public Test()
+	{
+		System.out.println("Inside parameterless constructor of Test class");
+	}
+	
+	public void disp()
+	{
+		System.out.println("Inside disp method of Test class");
+	}
+	
+	public void finalize()
+	{
+		System.out.println("Inside the finalize method");
+		Thread th = Thread.currentThread();
+		System.out.println("Th name = "+th.getName());
+		System.out.println("Th Group = "+th.getThreadGroup());
+		System.out.println("Th State  = "+th.getState().name());
+		System.out.println("Th is alive ?? "+th.isAlive());
+		System.out.println("Th is deamon ?? "+th.isDaemon());
+	
+	}
+	
+} //end of Test class
+
+
+public class Day15_7 {
+
+	public static void main(String[] args)
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+}

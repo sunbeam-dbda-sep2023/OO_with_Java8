@@ -1,0 +1,22 @@
+// thread creation by extending Thread class
+
+class Demo extends Thread
+{
+	public void run()
+	{
+		for(int i=0;i<5;i++)
+		{
+			System.out.print(i+"\t");
+			
+		}
+}
+
+public class Day15_2 {
+
+	public static void main(String[] args) 
+	{
+		Demo dobj = new Demo(); // dobj is threaded object
+		dobj.start();
+	}
+
+}

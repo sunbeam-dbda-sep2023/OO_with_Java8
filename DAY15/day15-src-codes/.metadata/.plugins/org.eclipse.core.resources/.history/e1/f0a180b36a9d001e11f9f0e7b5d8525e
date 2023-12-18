@@ -1,0 +1,66 @@
+package p1;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Day15_12
+{
+	static EmpPojo parseEmp(String line)
+	{
+		try
+		{
+			EmpPojo e = new EmpPojo();
+			String[] parts = line.split(",");
+			e.setId(Integer.parseInt(parts[0]));
+			e.setEname(parts[1]);
+			e.setJob(parts[2]);
+			e.setMgr(Integer.parseInt(parts[3]));
+			e.setSal(Integer.parseInt(parts[4]));
+			e.setDeptno(Integer.parseInt(parts[5]));
+			return e;
+		}
+		catch(Exception e)
+		{
+			System.out.println(e);
+			
+		}
+		return null;
+	}
+	
+	public static void main(String[] args) throws FileNotFoundException 
+	{
+		
+		String pathname = "C:/Users/sunbeam/Desktop/Code/DAY15/emp.csv";
+		File f=new File(pathname);
+		ArrayList<EmpPojo> emplist =new ArrayList<EmpPojo>();
+		
+		try(Scanner sc = new Scanner(f))
+		{
+			while(sc.hasNextLine())
+			{
+				String line = sc.nextLine();
+				EmpPojo e = parseEmp(line);
+				if(e!=null)
+					emplist.add(e);
+			}
+		}
+		
+		System.out.println("Printing the AL using for each loop");
+		for(EmpPojo al : emplist)
+			System.out.println(al);
+		
+		System.out.println("Printing the AL using lambda ");
+		emplist.forEach(e->System.out.println(e));
+		
+		System.out.println("Printing the AL using Method Reference ");
+		emplist.forEach(System.out::println);
+		
+		
+		
+	}
+	
+	
+
+}

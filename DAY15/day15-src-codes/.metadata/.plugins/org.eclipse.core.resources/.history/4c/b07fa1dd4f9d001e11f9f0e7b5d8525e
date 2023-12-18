@@ -1,0 +1,15 @@
+// thread creation by extending Thread class
+
+class Demo extends Thread
+{
+	
+}
+
+public class Day15_1 {
+
+	public static void main(String[] args) 
+	{
+		
+	}
+
+}

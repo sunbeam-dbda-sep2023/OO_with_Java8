@@ -1,0 +1,27 @@
+
+class Test
+{
+	public Test()
+	{
+		System.out.println("Inside parameterless constructor of Test class");
+	}
+	
+	public void disp()
+	{
+		System.out.println("Inside disp method of Test class");
+	}
+	
+	
+	
+} //end of Test class
+
+
+public class Day15_7 {
+
+	public static void main(String[] args)
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+}
